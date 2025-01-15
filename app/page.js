@@ -1,234 +1,219 @@
-"use client";
+"use client"; // This marks the file as a client component
+
 import { Button } from "@/components/ui/button";
-import Typed from "typed.js";
-import React, { useRef, useEffect } from "react";
-import Image from "next/image"; // Import Next.js Image component
+import React, { useRef, useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link"; // Import Link component
+
+// Dynamically import Typed.js to ensure it only runs on the client
+import dynamic from "next/dynamic";
+const Typed = dynamic(() => import("typed.js"), { ssr: false });
 
 export default function Home() {
   const el = useRef(null);
 
   useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: [
-        "Coding",
-        "Web Development",
-        "Software Engineering",
-        "Data Science",
-        "Machine Learning",
-      ],
-      typeSpeed: 50,
-    });
+    if (el.current) {
+      const typed = new Typed(el.current, {
+        strings: [
+          "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ:",
+          "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥",
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
 
-    return () => {
-      typed.destroy();
-    };
-  }, []);
+      return () => {
+        typed.destroy();
+      };
+    }
+  }, []); // Empty dependency array ensures this runs only on the client
+
+  const [cards, setCards] = useState([
+    {
+      id: 1,
+      name: "John Doe",
+      profession: "Software Developer",
+      age: 28,
+      gender: "male",
+      image: "/images/download (4).jpg",
+    },
+    {
+      id: 2,
+      name: "Jane Doe",
+      profession: "Designer",
+      age: 24,
+      gender: "female",
+      image: "/images/download (1).jpg",
+    },
+    {
+      id: 3,
+      name: "Sam Smith",
+      profession: "Manager",
+      age: 35,
+      gender: "male",
+      image: "/images/download (2).jpg",
+    },
+    {
+      id: 4,
+      name: "Sarah Lee",
+      profession: "Developer",
+      age: 30,
+      gender: "female",
+      image: "/images/4.jpg",
+    },
+  ]);
+  const [filteredCards, setFilteredCards] = useState(cards);
+  const [gender, setGender] = useState("");
+  const [ageFrom, setAgeFrom] = useState(18);
+  const [ageTo, setAgeTo] = useState(100);
+
+  const handleFind = () => {
+    const filtered = cards.filter(
+      (card) =>
+        (gender ? card.gender === gender : true) &&
+        card.age >= ageFrom &&
+        card.age <= ageTo
+    );
+    setFilteredCards(filtered);
+  };
 
   return (
     <main>
       <section className="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
         <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8">
-          <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
-            A <span className="font-semibold">free repository</span> for
-            community <br className="hidden lg:block" /> components using{" "}
-            <span className="font-semibold underline decoration-primary">
-              <span ref={el} />
-            </span>
+          <h1
+            className="text-2xl leading-snug text-gray-800 dark:text-gray-200 md:text-2xl"
+            style={{ fontFamily: "'Samarkan', serif" }}
+          >
+            <span ref={el} />
           </h1>
-          <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-            Open source Tailwind UI components and templates to{" "}
-            <br className="hidden lg:block" /> bootstrap your new apps, projects
-            &apos; or landing sites!
-          </p>
-          <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
-            <form
-              action="https://www.creative-tim.com/twcomponents/search"
-              className="flex flex-wrap justify-between md:flex-row"
-            >
-              {/* Add form fields here if needed */}
-            </form>
-          </div>
         </div>
         <div className="w-full mt-4 lg:mt-0 lg:w-1/2">
           <Image
-            src="https://www.creative-tim.com/twcomponents/svg/website-designer-bro-purple.svg"
+            src="/download.jpg"
             alt="tailwind css components"
             className="w-full h-full max-w-md mx-auto"
-            width={500} // Adjust width and height as necessary
-            height={500} // Adjust width and height as necessary
+            width={500}
+            height={500}
           />
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="py-12 bg-gray-100 dark:bg-gray-900">
-        <div className="container px-4 mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">
-              Pricing Plans
-            </h2>
-            <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-              Choose the plan that suits you best
-            </p>
-          </div>
-          <div className="flex flex-wrap justify-center">
-            {/* Basic Plan */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
-                  Basic
-                </h3>
-                <p className="mt-4 text-gray-500 dark:text-gray-300">
-                  $10/month
-                </p>
-                <ul className="mt-6 mb-6 space-y-4">
-                  <li className="text-gray-600 dark:text-gray-400">
-                    <s>10GB Storage</s>
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    <s>Basic Support</s>
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    <s>Single User</s>
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Community Access
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Weekly Updates
-                  </li>
-                </ul>
-                <Button className="mx-1" variant="outline">
-                  Choose Plan
-                </Button>
-              </div>
-            </div>
-            {/* Standard Plan */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center border-2 border-purple-500">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
-                  Standard
-                </h3>
-                <p className="mt-4 text-gray-500 dark:text-gray-300">
-                  $20/month
-                </p>
-                <span className="inline-block px-3 py-1 text-sm font-semibold text-white bg-purple-500 rounded-full">
-                  Bestseller
-                </span>
-                <ul className="mt-6 mb-6 space-y-4">
-                  <li className="text-gray-600 dark:text-gray-400">
-                    50GB Storage
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Priority Support
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Up to 5 Users
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Community Access
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Daily Updates
-                  </li>
-                </ul>
-                <Button className="mx-1" variant="outline">
-                  Choose Plan
-                </Button>
-              </div>
-            </div>
-            {/* Premium Plan */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-                <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
-                  Premium
-                </h3>
-                <p className="mt-4 text-gray-500 dark:text-gray-300">
-                  $30/month
-                </p>
-                <ul className="mt-6 mb-6 space-y-4">
-                  <li className="text-gray-600 dark:text-gray-400">
-                    200GB Storage
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    24/7 Support
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Unlimited Users
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Community Access
-                  </li>
-                  <li className="text-gray-600 dark:text-gray-400">
-                    Real-time Updates
-                  </li>
-                </ul>
-                <Button className="mx-1" variant="outline">
-                  Choose Plan
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
+      {/* Filter Options */}
       <section className="py-12 bg-white dark:bg-gray-900">
         <div className="container px-4 mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">
-              What Our Clients Say
-            </h2>
-            <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-              Hear from our satisfied customers
-            </p>
+          <div className="flex flex-col sm:flex-row sm:gap-8 mb-8">
+            {/* Gender Filter */}
+            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 text-center">
+                <label
+                  htmlFor="gender"
+                  className="block text-gray-800 dark:text-gray-200 font-semibold mb-2"
+                >
+                  Select Gender
+                </label>
+                <select
+                  id="gender"
+                  value={gender}
+                  onChange={(e) => setGender(e.target.value)}
+                  className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200"
+                >
+                  <option value="">All</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+
+            {/* Age Filter From */}
+            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 text-center">
+                <label
+                  htmlFor="age-from"
+                  className="block text-gray-800 dark:text-gray-200 font-semibold mb-2"
+                >
+                  Age From
+                </label>
+                <select
+                  id="age-from"
+                  value={ageFrom}
+                  onChange={(e) => setAgeFrom(Number(e.target.value))}
+                  className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200"
+                >
+                  {Array.from({ length: 83 }, (_, i) => (
+                    <option key={i} value={18 + i}>
+                      {18 + i}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            {/* Age Filter To */}
+            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 text-center">
+                <label
+                  htmlFor="age-to"
+                  className="block text-gray-800 dark:text-gray-200 font-semibold mb-2"
+                >
+                  Age To
+                </label>
+                <select
+                  id="age-to"
+                  value={ageTo}
+                  onChange={(e) => setAgeTo(Number(e.target.value))}
+                  className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200"
+                >
+                  {Array.from({ length: 83 }, (_, i) => (
+                    <option key={i} value={18 + i}>
+                      {18 + i}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+
+            {/* Filter Button */}
+            <Button
+              onClick={handleFind}
+              className="px-6 py-3 bg-blue-600 text-white rounded-lg mt-4 sm:mt-0"
+            >
+              Find
+            </Button>
           </div>
-          <div className="flex flex-wrap justify-center">
-            {/* Testimonial 1 */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-                <p className="text-gray-600 dark:text-gray-400">
-                  &quot;This service has been a game-changer for our business.
-                  Highly recommend!&quot;
-                </p>
-                <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
-                  John Doe
+
+          {/* Filtered Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredCards.map((card) => (
+              <div
+                key={card.id}
+                className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6"
+              >
+                <Link href={`/profile/${card.id}`} passHref>
+                  <div className="relative w-full h-auto max-w-full">
+                    <Image
+                      src={card.image}
+                      alt={card.name}
+                      layout="intrinsic"
+                      width={500}
+                      height={700} // Adjust the height dynamically
+                      className="object-contain w-full h-full rounded-lg"
+                    />
+                  </div>
+                </Link>
+                <h3 className="text-xl font-bold text-gray-800 dark:text-gray-200 mt-4">
+                  {card.name}
                 </h3>
                 <p className="text-gray-500 dark:text-gray-300">
-                  CEO, Company A
+                  {card.profession}
                 </p>
-              </div>
-            </div>
-            {/* Testimonial 2 */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-                <p className="text-gray-600 dark:text-gray-400">
-                  &quot;Fantastic support and great features. Worth every
-                  penny!&quot;
-                </p>
-                <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
-                  Jane Smith
-                </h3>
                 <p className="text-gray-500 dark:text-gray-300">
-                  Manager, Company B
+                  {card.age} years old
                 </p>
               </div>
-            </div>
-            {/* Testimonial 3 */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-              <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-                <p className="text-gray-600 dark:text-gray-400">
-                  &quot;Amazing tools that have improved our productivity
-                  tremendously.&quot;
-                </p>
-                <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">
-                  Emily Johnson
-                </h3>
-                <p className="text-gray-500 dark:text-gray-300">
-                  CTO, Company C
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
