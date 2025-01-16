@@ -1,129 +1,45 @@
-import Image from "next/image";
+"use client";
+import React from "react";
 
-export default function About() {
+const About = () => {
   return (
-    <div>
-      
-      <section className="py-16 bg-gray-50 dark:bg-gray-800 dark:text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">
-              Harry&apos;s Journey as a Coder
-            </h2>
-            <p className="mt-4 text-lg text-gray-600 dark:text-gray-50">
-              From curious beginner to seasoned developer, here&apos;s how Harry
-              navigated the world of programming.
-            </p>
-          </div>
-          <div className="space-y-12">
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-1/3">
-                <Image
-                  src="/3.jpg"
-                  alt="Harry as a beginner in programming"
-                  className="w-full rounded-lg shadow-lg"
-                  layout="responsive"
-                  width={500}
-                  height={300}
-                />
-              </div>
-              <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
-                  The Spark of Curiosity
-                </h3>
-                <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  Harry&apos;s coding journey began in high school when he
-                  stumbled upon his first programming language—Python. What
-                  started as a simple curiosity quickly turned into a passion,
-                  as Harry spent countless hours experimenting with code,
-                  building small projects, and learning the fundamentals of
-                  software development.
-                </p>
-              </div>
-            </div>
+    <section className="p-6 bg-background/50 backdrop-blur">
+      <div className="container mx-auto text-center space-y-6">
+        <h2 className="text-3xl font-semibold text-white">About Namdev Patrika</h2>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          Welcome to <strong>Namdev Patrika</strong> - a leading platform that brings together individuals from the Namdev Samaj community, helping them find meaningful connections. We aim to make the search for a life partner easier by focusing on shared values, traditions, and cultural backgrounds.
+        </p>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          At <strong>Namdev Patrika</strong>, we understand how important it is to find someone who not only complements your personality but also connects with your cultural and community values. Our platform is designed to offer an intuitive matchmaking process, helping you discover the ideal match for a fulfilling partnership.
+        </p>
+        
+        <h3 className="text-2xl font-semibold text-white mt-6">Managed by</h3>
+        <p className="text-lg text-gray-700 dark:text-gray-300">Email: <a href="mailto:namdevtarun910@gmail.com" className="text-primary hover:underline">namdevtarun910@gmail.com</a></p>
+        <p className="text-lg text-gray-700 dark:text-gray-300">Mobile: <a href="tel:+916260919910" className="text-primary hover:underline">+91-6260919910</a></p>
+        
+        <h3 className="text-2xl font-semibold text-white mt-6">Features We Offer</h3>
+        <ul className="list-disc text-left text-lg text-gray-700 dark:text-gray-300 space-y-3 mt-4 mx-auto md:w-2/3">
+          <li><strong>Custom Profiles:</strong> Build a comprehensive profile that highlights your personality, preferences, and values to attract compatible matches.</li>
+          <li><strong>Smart Search Filters:</strong> Fine-tune your search with filters like age, profession, education, and more to ensure you meet people who match your criteria.</li>
+          <li><strong>Match Suggestions:</strong> Our smart algorithm recommends compatible profiles based on your preferences and profile information, making your search efficient.</li>
+          <li><strong>Safe Messaging:</strong> Communicate securely with potential matches through our messaging system, ensuring privacy and confidentiality throughout your interaction.</li>
+          <li><strong>Community Engagement:</strong> Participate in community events, meetups, and matrimonial gatherings where you can meet potential partners in person.</li>
+          <li><strong>Verified Accounts:</strong> Rely on verified profiles for a secure and authentic matchmaking experience, ensuring that the profiles you interact with are genuine.</li>
+          <li><strong>Reliable Support:</strong> Our customer support team is here to assist you with any questions or concerns, providing timely and helpful responses for a smooth experience.</li>
+        </ul>
 
-            <div className="flex flex-col md:flex-row-reverse items-center">
-              <div className="md:w-1/3">
-                <Image
-                  src="/2.jpg"
-                  alt="Harry learning new programming skills"
-                  className="w-full rounded-lg shadow-lg"
-                  layout="responsive"
-                  width={500}
-                  height={300}
-                />
-              </div>
-              <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
-                  Diving Deeper
-                </h3>
-                <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  After mastering the basics, Harry&apos;s thirst for knowledge
-                  grew. He began exploring more complex topics such as data
-                  structures, algorithms, and web development. Enrolling in
-                  online courses and attending coding bootcamps, Harry quickly
-                  expanded his skill set, taking on freelance projects to apply
-                  his knowledge in real-world scenarios.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center">
-              <div className="md:w-1/3">
-                <Image
-                  src="/1.jpg"
-                  alt="Harry working on a big programming project"
-                  className="w-full rounded-lg shadow-lg"
-                  layout="responsive"
-                  width={500}
-                  height={300}
-                />
-              </div>
-              <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
-                  Taking on Challenges
-                </h3>
-                <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  With several years of experience under his belt, Harry began
-                  tackling more significant challenges. From contributing to
-                  open-source projects to developing his own applications, Harry
-                  continued to push his limits, always looking for opportunities
-                  to learn and grow. His journey wasn&apos;t without its
-                  setbacks, but each obstacle was a stepping stone to becoming
-                  the skilled developer he is today.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row-reverse items-center">
-              <div className="md:w-1/3">
-                <Image
-                  src="/4.jpg"
-                  alt="Harry mentoring aspiring programmers"
-                  className="w-full rounded-lg shadow-lg"
-                  layout="responsive"
-                  width={500}
-                  height={300}
-                />
-              </div>
-              <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
-                  Giving Back
-                </h3>
-                <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  Today, Harry is not only a proficient coder but also a mentor
-                  to others. He regularly contributes to the programming
-                  community by writing tutorials, giving talks, and helping new
-                  coders find their footing in the world of software
-                  development. For Harry, coding is more than just a
-                  profession—it&apos;s a lifelong journey of learning and
-                  sharing knowledge.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+        <h3 className="text-2xl font-semibold text-white mt-6">Join Us Now</h3>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          Join <strong>Namdev Patrika</strong> today and begin your journey toward finding a life partner who shares your values, culture, and traditions. Our platform is dedicated to making the search for your perfect match a seamless and rewarding experience.
+        </p>
+        
+        <h3 className="text-2xl font-semibold text-white mt-6">Why We Stand Out</h3>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          Our commitment to delivering personalized matchmaking services, along with a focus on community, makes us the top choice for those looking for meaningful connections. At <strong>Namdev Patrika</strong>, we believe in bringing people together with shared values to create lasting relationships.
+        </p>
+      </div>
+    </section>
   );
-}
+};
+
+export default About;
