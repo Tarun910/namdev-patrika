@@ -1,34 +1,29 @@
 "use client"; // This marks the file as a client component
 
 import { Button } from "@/components/ui/button";
+import Typed from "typed.js";
 import React, { useRef, useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link"; // Import Link component
-
-// Dynamically import Typed.js to ensure it only runs on the client
-import dynamic from "next/dynamic";
-const Typed = dynamic(() => import("typed.js"), { ssr: false });
+import Link from "next/link";
 
 export default function Home() {
   const el = useRef(null);
 
   useEffect(() => {
-    if (el.current) {
-      const typed = new Typed(el.current, {
-        strings: [
-          "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ:",
-          "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥",
-        ],
-        typeSpeed: 50,
-        backSpeed: 30,
-        loop: true,
-      });
+    const typed = new Typed(el.current, {
+      strings: [
+        "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ:",
+        "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥",
+      ],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true,
+    });
 
-      return () => {
-        typed.destroy();
-      };
-    }
-  }, []); // Empty dependency array ensures this runs only on the client
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   const [cards, setCards] = useState([
     {
@@ -37,7 +32,7 @@ export default function Home() {
       profession: "Software Developer",
       age: 28,
       gender: "male",
-      image: "/images/download (4).jpg",
+      image: "/images/person1.jpg",
     },
     {
       id: 2,
@@ -45,7 +40,7 @@ export default function Home() {
       profession: "Designer",
       age: 24,
       gender: "female",
-      image: "/images/download (1).jpg",
+      image: "/images/person2.jpg",
     },
     {
       id: 3,
@@ -53,7 +48,7 @@ export default function Home() {
       profession: "Manager",
       age: 35,
       gender: "male",
-      image: "/images/download (2).jpg",
+      image: "/images/person3.jpg",
     },
     {
       id: 4,
@@ -64,6 +59,7 @@ export default function Home() {
       image: "/images/4.jpg",
     },
   ]);
+
   const [filteredCards, setFilteredCards] = useState(cards);
   const [gender, setGender] = useState("");
   const [ageFrom, setAgeFrom] = useState(18);
@@ -101,11 +97,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Filter Options */}
       <section className="py-12 bg-white dark:bg-gray-900">
         <div className="container px-4 mx-auto">
           <div className="flex flex-col sm:flex-row sm:gap-8 mb-8">
-            {/* Gender Filter */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 text-center">
                 <label
@@ -126,8 +120,6 @@ export default function Home() {
                 </select>
               </div>
             </div>
-
-            {/* Age Filter From */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 text-center">
                 <label
@@ -150,8 +142,6 @@ export default function Home() {
                 </select>
               </div>
             </div>
-
-            {/* Age Filter To */}
             <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
               <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 text-center">
                 <label
@@ -174,8 +164,6 @@ export default function Home() {
                 </select>
               </div>
             </div>
-
-            {/* Filter Button */}
             <Button
               onClick={handleFind}
               className="px-6 py-3 bg-blue-600 text-white rounded-lg mt-4 sm:mt-0"
@@ -183,8 +171,6 @@ export default function Home() {
               Find
             </Button>
           </div>
-
-          {/* Filtered Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredCards.map((card) => (
               <div
@@ -192,14 +178,13 @@ export default function Home() {
                 className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6"
               >
                 <Link href={`/profile/${card.id}`} passHref>
-                  <div className="relative w-full h-auto max-w-full">
+                  <div className="relative w-full h-72 overflow-hidden rounded-lg cursor-pointer">
                     <Image
                       src={card.image}
                       alt={card.name}
-                      layout="intrinsic"
                       width={500}
-                      height={700} // Adjust the height dynamically
-                      className="object-contain w-full h-full rounded-lg"
+                      height={500}
+                      className="rounded-lg"
                     />
                   </div>
                 </Link>
