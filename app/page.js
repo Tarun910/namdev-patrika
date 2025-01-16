@@ -32,7 +32,7 @@ export default function Home() {
       profession: "Software Developer",
       age: 28,
       gender: "male",
-      image: "/images/person1.jpg",
+      image: "/images/download (4).jpg",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ export default function Home() {
       profession: "Designer",
       age: 24,
       gender: "female",
-      image: "/images/person2.jpg",
+      image: "/images/download (1).jpg",
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ export default function Home() {
       profession: "Manager",
       age: 35,
       gender: "male",
-      image: "/images/person3.jpg",
+      image: "/images/download (2).jpg",
     },
     {
       id: 4,
@@ -178,13 +178,13 @@ export default function Home() {
                 className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6"
               >
                 <Link href={`/profile/${card.id}`} passHref>
-                  <div className="relative w-full h-72 overflow-hidden rounded-lg cursor-pointer">
+                  <div className="relative w-full overflow-hidden rounded-lg cursor-pointer">
                     <Image
                       src={card.image}
                       alt={card.name}
                       width={500}
                       height={500}
-                      className="rounded-lg"
+                      className="w-full h-auto object-contain"
                     />
                   </div>
                 </Link>
