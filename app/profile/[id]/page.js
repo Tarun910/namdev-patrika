@@ -78,6 +78,10 @@ const Profile = () => {
       </p>
     );
 
+  const handleCallClick = () => {
+    window.location.href = `tel:+${selectedProfile.phone}`; // Replace 'phone' with actual phone number field if available
+  };
+
   const handleMessageClick = () => {
     window.location.href = `mailto:${selectedProfile.email}`; // Open email client with the profile's email
   };
@@ -94,6 +98,31 @@ const Profile = () => {
 
   const handleAddToShortlist = () => {
     alert("This profile has been added to your shortlist.");
+  };
+
+  const handleShareClick = () => {
+    // Build a message with profile data and URL to share
+    const message = `Check out this profile!\n\nName: ${selectedProfile.name}\nAge: ${selectedProfile.age}\nProfession: ${selectedProfile.profession}\nCaste: ${selectedProfile.caste}\nRashi: ${selectedProfile.rashi}\nBio: ${selectedProfile.bio}\n\nFor more details, visit: ${window.location.href}`;
+
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+
+    window.location.href = whatsappUrl;
+  };
+
+  const handleCopyClick = () => {
+    // Build a message with profile data and URL to copy
+    const message = `Check out this profile!\n\nName: ${selectedProfile.name}\nAge: ${selectedProfile.age}\nProfession: ${selectedProfile.profession}\nCaste: ${selectedProfile.caste}\nRashi: ${selectedProfile.rashi}\nBio: ${selectedProfile.bio}\n\nFor more details, visit: ${window.location.href}`;
+
+    // Copy the message to the clipboard
+    navigator.clipboard
+      .writeText(message)
+      .then(() => {
+        alert("Profile details copied to clipboard!");
+      })
+      .catch((err) => {
+        console.error("Failed to copy: ", err);
+        alert("Failed to copy the profile details.");
+      });
   };
 
   return (
@@ -151,12 +180,11 @@ const Profile = () => {
       </div>
 
       <div className="mt-6 flex flex-col gap-4">
-        {/* Message and action buttons */}
         <button
-          onClick={handleMessageClick}
+          onClick={handleCallClick}
           className="bg-blue-600 text-white py-2 px-4 rounded-lg"
         >
-          Message
+          Call
         </button>
         <button
           onClick={handleWhatsappClick}
@@ -164,6 +192,23 @@ const Profile = () => {
         >
           WhatsApp
         </button>
+
+        {/* Copy to Clipboard Button */}
+        <button
+          onClick={handleCopyClick}
+          className="bg-gray-500 text-white py-2 px-4 rounded-lg"
+        >
+          Copy Link
+        </button>
+
+        {/* Share Profile Button */}
+        <button
+          onClick={handleShareClick}
+          className=" bg-blue-500  text-white py-2 px-4 rounded-lg"
+        >
+          Share Profile
+        </button>
+
         <button
           onClick={handleExpressInterest}
           className="bg-yellow-500 text-white py-2 px-4 rounded-lg"
@@ -172,7 +217,7 @@ const Profile = () => {
         </button>
         <button
           onClick={handleAddToShortlist}
-          className="bg-gray-500 text-white py-2 px-4 rounded-lg"
+          className="bg-purple-600 text-white py-2 px-4 rounded-lg"
         >
           Add to Shortlist
         </button>
