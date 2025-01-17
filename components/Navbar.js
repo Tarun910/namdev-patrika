@@ -47,7 +47,7 @@ const Navbar = () => {
       />
       <div className="container mx-auto flex justify-between items-center">
         <Link href={"/"}>
-          <div className="text-lg font-bold">namdev-patrika</div>
+          <div className="text-lg font-bold">युवक युवती परिचय सम्मेलन 2025</div>
         </Link>
         <div className="hidden md:flex space-x-4 items-center">
           <Link
@@ -116,7 +116,7 @@ const Navbar = () => {
             <SheetContent>
               <SheetHeader>
                 <SheetTitle className="font-bold my-4">
-                  namdev-patrika
+                युवक युवती परिचय सम्मेलन 2025
                 </SheetTitle>
                 <SheetDescription>
                   <div className="flex flex-col gap-6">
