@@ -25,13 +25,6 @@ Namdev Patrika is a leading matrimonial platform designed to bring together indi
 
 To get started with Namdev Patrika, visit the website and create a free account. Fill in your profile details, and begin searching for your ideal match using our intelligent filters. You can also participate in community events to increase your chances of meeting the right person in person.
 
-## Technologies Used
-
-- Frontend: HTML, CSS, JavaScript (React.js)
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Features: Smart algorithms, Messaging System, Profile Verification
-
 ## Contact
 
 - **Email:** namdevtarun910@gmail.com
