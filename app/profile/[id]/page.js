@@ -344,6 +344,38 @@ const profiles = [
     },
     bio: "A dedicated professional working in the car workshop, seeking a well-educated and like-minded partner.",
   },
+  {
+    id: 12,
+    image: "/images/imagedata/vedansh_namdev_id_12.jpg",
+    name: "वेदांश नामदेव",
+    age: 26,
+    profession: "Owner of Private Higher Secondary School",
+    gender: "Male",
+    income: "1,50,000 (Joint)",
+    height: "5'5\"",
+    education: "B.E. (Mechanical), PGDCA",
+    birthDate: "06/02/1998",
+    birthPlace: "भोपाल (एम. पी.)",
+    birthTime: "10:55 PM",
+    caste: "नामदेव",
+    fathersName: "श्री उमेश कुमार नामदेव",
+    mothersName: "श्रीमति शोभा नामदेव",
+    fathersProfession: "Owner of Private Higher Secondary School",
+    mothersProfession: "Principal at Private Higher Secondary School",
+    gotra: "तरोलिया (दर्जी)",
+    manglik: "No",
+    preferences: "M.P.",
+    familyMembers: 3,
+    address:
+      "बी-71, एलिक्सिर गार्डन, न्यू जेल रोड, करोंद बाए-पास, भोपाल (एम. पी.)",
+    contact: {
+      father: "9425464232",
+      other: "N/A",
+      whatsapp: "9425464232",
+      email: "uknamdev512@gmail.com",
+    },
+    bio: "A successful individual managing a private higher secondary school, supported by a family dedicated to education, seeking a compatible match from Madhya Pradesh.",
+  },
 ];
 
 const Profile = () => {
@@ -546,6 +578,10 @@ const Profile = () => {
               <p>
                 <span className="font-semibold">Whatsapp&apos;s Contact:</span>{" "}
                 {selectedProfile.contact?.whatsapp || "N/A"}
+              </p>
+              <p>
+                <span className="font-semibold">Email:</span>{" "}
+                {selectedProfile.contact?.email || "N/A"}
               </p>
             </div>
           </div>

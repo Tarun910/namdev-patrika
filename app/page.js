@@ -157,6 +157,14 @@ export default function Home() {
       gender: "female",
       image: "/images/imagedata/shweta_namdeo_id_11.jpg",
     },
+    {
+      id: 12,
+      name: "वेदांश नामदेव",
+      profession: "Owner of Private Higher Secondary School",
+      age: 26,
+      gender: "male",
+      image: "/images/imagedata/vedansh_namdev_id_12.jpg",
+    },
   ]);
 
   const [filteredCards, setFilteredCards] = useState(cards);
