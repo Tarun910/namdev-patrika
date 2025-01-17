@@ -37,4 +37,4 @@ Join Namdev Patrika today and begin your journey toward finding a life partner w
 Namdev Patrika stands out by offering personalized matchmaking services with a focus on community values and traditions. Our platform is built to create lasting relationships through shared cultural backgrounds, making it the top choice for those seeking meaningful connections.
 
 ---
-Managed by [Tarun]([https://github.com/your-github-profile-link](https://www.linkedin.com/in/tarun910/)).
+Managed by [Tarun](https://www.linkedin.com/in/tarun910/).
