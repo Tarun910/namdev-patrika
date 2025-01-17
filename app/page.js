@@ -40,7 +40,7 @@ export default function Home() {
       profession: "Private School Teacher",
       age: 26,
       gender: "female",
-      image: "/images/imagedata/raksha_namdev_id_15.jpg"
+      image: "/images/imagedata/raksha_namdev_id_15.jpg",
     },
     {
       id: 14,
@@ -48,7 +48,7 @@ export default function Home() {
       profession: "VSA (in MANREGA, JP Nateran)",
       age: 27,
       gender: "male",
-      image: "/images/imagedata/neelesh_namdev_id_14.jpg"
+      image: "/images/imagedata/neelesh_namdev_id_14.jpg",
     },
     {
       id: 13,
@@ -56,7 +56,7 @@ export default function Home() {
       profession: "Private Job", // No specific job mentioned
       age: 28,
       gender: "female",
-      image: "/images/imagedata/garima_namdev_id_13.jpg"
+      image: "/images/imagedata/garima_namdev_id_13.jpg",
     },
     {
       id: 1,
