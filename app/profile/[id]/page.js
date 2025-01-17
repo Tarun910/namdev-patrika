@@ -19,7 +19,97 @@ const profiles = [
   //   whatsapp: "https://wa.me/11234567890",
   //   bio: "A professional looking for a partner with similar interests and values.",
   // },
-
+  {
+    "id": 15,
+    "name": "रक्षा (नामदेव)",
+    "profession": "निजी स्कूल शिक्षक",
+    "age": 26,
+    "gender": "Female",
+    "image": "/images/imagedata/raksha_namdev_id_15.jpg",
+    "income": "N/A",
+    "height": "5'4\"",
+    "education": "बी. कॉम, एम. कॉम",
+    "birthDate": "03/08/1997",
+    "birthPlace": "गोटेगांव (जिला - नरसिंहपुर)",
+    "birthTime": "03:35 AM",
+    "caste": "नामदेव",
+    "fathersName": "कोमल चंद्र (नामदेव)",
+    "mothersName": "श्रीमती सुषमा (नामदेव)",
+    "fathersProfession": "प्राइवेट जॉब",
+    "mothersProfession": "गृहणी",
+    "gotra": "स्वयं का: भारद्वाज, मां का: कौशल",
+    "manglik": "आंशिक",
+    "preferences": "मध्यप्रदेश निवासी, सुशिक्षित, साधारण परिवार, मिलनसार",
+    "familyMembers": 6,
+    "address": "किसानी मोहल्ला, बोस वार्ड, गोटेगांव, (श्रीधाम), जिला - नरसिंहपुर, मध्यप्रदेश",
+    "contact": {
+      "father": "9713078747",
+      "other": "9584745241",
+      "whatsapp": "9584745241",
+      "email": "N/A"
+    },
+    "bio": "सुशिक्षित और दयालु स्वभाव की, निजी स्कूल शिक्षक के रूप में कार्यरत। साधारण और मिलनसार परिवार से शिक्षित जीवनसाथी की तलाश।"
+  },
+  
+  {
+    id: 14,
+    image: "/images/imagedata/neelesh_namdev_id_14.jpg", // Replace with the correct image path
+    name: "Neelesh Namdev",
+    age: 27,
+    profession: "VSA (in MANREGA, JP Nateran)",
+    gender: "Male",
+    income: "N/A", // Income not mentioned
+    height: "5'11\"",
+    education: "B.Sc (CS), B.Ed, MA (English), PGDCA",
+    birthDate: "21/05/1996",
+    birthPlace: "Village Pipaldhar, Tahseel Shamsabad, Dist. Vidisha",
+    birthTime: "N/A", // Time not provided
+    caste: "Namdev",
+    fathersName: "Mr. Kanhaiya Lal Namdev",
+    mothersName: "Mrs. Shree Bai Namdev",
+    fathersProfession: "Clothes Shop Owner",
+    mothersProfession: "N/A",
+    gotra: "Dhollpuriya",
+    manglik: "N/A", // Manglik status not mentioned
+    preferences: "N/A", // No preferences mentioned
+    address: "Village Pipaldhar, Tahseel Shamsabad, Dist. Vidisha",
+    contact: {
+      father: null,
+      other: "9981302967 (Jitendra Namdev)",
+      whatsapp: null
+    },
+    bio: "A highly educated and dedicated professional working as a VSA in MANREGA. Looking for a compatible partner with shared values and aspirations."
+  },
+  {
+    "id": 13,
+    "name": "कु. गरिमा नामदेव",
+    "profession": "प्राइवेट जॉब",
+    "age": 28,
+    "gender": "Female",
+    "image": "/images/imagedata/garima_namdev_id_13.jpg",
+    "income": "N/A",
+    "height": "5'1\"",
+    "education": "M.Sc, B.Ed",
+    "birthDate": "13/07/1995",
+    "birthPlace": "बड़वाह (जिला खरगौन, म प्र)",
+    "birthTime": "11:30 AM",
+    "caste": "नामदेव",
+    "fathersName": "श्री अशोक नामदेव",
+    "mothersName": "श्रीमती लेखा नामदेव",
+    "fathersProfession": "प्राइवेट जॉब",
+    "mothersProfession": "N/A",
+    "gotra": "देवदरिया, घुराटिया",
+    "manglik": "आंशिक मांगलिक",
+    "preferences": "N/A",
+    "address": "BH 08 HIG 'B' Delux Kadambari Nagar, Rau, Indore (M.P.)",
+    "contact": {
+      "father": "8435159871",
+      "other": "N/A",
+      "whatsapp": "N/A",
+      "email": "N/A"
+    },
+    "bio": "M.Sc और B.Ed योग्यता प्राप्त, प्राइवेट जॉब में कार्यरत। गरिमा एक समझदार और सहयोगी जीवनसाथी की तलाश में हैं।"
+  },
   {
     id: 1,
     image: "/images/imagedata/nilesh_borse_id_1.jpg",

@@ -34,31 +34,30 @@ export default function Home() {
     //   gender: "male",
     //   image: "/images/download (4).jpg",
     // },
-    // {
-    //   id: 2,
-    //   name: "Jane Doe",
-    //   profession: "Designer",
-    //   age: 24,
-    //   gender: "female",
-    //   image: "/images/download (1).jpg",
-    // },
-    // {
-    //   id: 3,
-    //   name: "Sam Smith",
-    //   profession: "Manager",
-    //   age: 35,
-    //   gender: "male",
-    //   image: "/images/download (2).jpg",
-    // },
-    // {
-    //   id: 4,
-    //   name: "Sarah Lee",
-    //   profession: "Developer",
-    //   age: 30,
-    //   gender: "female",
-    //   image: "/images/4.jpg",
-    // },
-
+    {
+      id: 15,
+      name: "Raksha Namdev",
+      profession: "Private School Teacher",
+      age: 26,
+      gender: "female",
+      image: "/images/imagedata/raksha_namdev_id_15.jpg"
+    },
+    {
+      id: 14,
+      name: "Neelesh Namdev",
+      profession: "VSA (in MANREGA, JP Nateran)",
+      age: 27,
+      gender: "male",
+      image: "/images/imagedata/neelesh_namdev_id_14.jpg"
+    },
+    {
+      id: 13,
+      name: "Garima Namdev",
+      profession: "Private Job", // No specific job mentioned
+      age: 28,
+      gender: "female",
+      image: "/images/imagedata/garima_namdev_id_13.jpg"
+    },
     {
       id: 1,
       name: "Nilesh Borse",
