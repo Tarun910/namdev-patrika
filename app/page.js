@@ -35,6 +35,60 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
+      "id": 21,
+      "name": "Priyesh Chhaperwal",
+      "profession": "Government employee in Veterinary College Mhow",
+      "age": 32,
+      "gender": "male",
+      "image": "/images/imagedata/priyesh_chhaperwal_id_21.jpg"
+    },
+    
+    {
+      "id": 20,
+      "name": "Neeti Namdev",
+      "age": 30,
+      "profession": null,
+      "gender": "female",
+      "image": "/images/imagedata/neeti_namdev_id_20.jpg"
+    },
+    
+    {
+      "id": 19,
+      "name": "विकास नामदेव",
+      "profession": "अतिथि शिक्षक वर्ग 2, MP Online & Photocopy Shop",
+      "age": 26,
+      "gender": "male",
+      "image": "/images/imagedata/vikas_namdev_id_19.jpg"
+    },
+    
+    {
+      "id": 18,
+      "name": "Chanchlesh Namdev",
+      "profession": "Business (Kirana, General Wholesale)",
+      "age": 30,
+      "gender": "male",
+      "image": "/images/imagedata/chanchlesh_namdev_id_18.jpg"
+    },
+    
+    {
+      "id": 17,
+      "name": "हिमांशु डोंगरे (नामदेव)",
+      "profession": "C.R.S. IMPEX PVT. LTD. Dental Lab + Mobile Repairing Engineer",
+      "age": 29,
+      "gender": "male",
+      "image": "/images/imagedata/himanshu_dongre_id_17.jpg"
+    },
+    
+    {
+      "id": 16,
+      "name": "Paramhans Namdev (Karan)",
+      "profession": "Software Engineer at IntelliaTech Solutions Pvt Ltd",
+      "age": 25,
+      "gender": "male",
+      "image": "/images/imagedata/paramhans_namdev_karan_id_16.jpg"
+    },
+    
+    {
       id: 15,
       name: "Raksha Namdev",
       profession: "Private School Teacher",
