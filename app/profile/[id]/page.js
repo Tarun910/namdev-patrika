@@ -20,6 +20,346 @@ const profiles = [
   //   bio: "A professional looking for a partner with similar interests and values.",
   // },
   {
+    id: 46,
+    image: "/images/imagedata/paras_namdev_id_46.jpg", // Replace with the correct image path
+    name: "Paras Namdev",
+    age: 24, // Calculate dynamically if required
+    profession: "Artist and Musician Including Electronic Repairing",
+    gender: "male",
+    income: "15000+",
+    height: "5'3\"",
+    education: "Graduate B.Com from Mumbai University",
+    birthDate: "05/01/2001",
+    birthPlace: "Jabalpur M.p",
+    birthTime: "9:30 pm",
+    caste: "N/A",
+    fathersName: "Mukesh Namdev",
+    mothersName: "Vinita Namdev",
+    fathersProfession: "Contractor",
+    mothersProfession: "N/A",
+    gotra: "कौशल",
+    manglik: "N/A",
+    preferences: "N/A",
+    address: "325 Dwarka nagar chandmari road jabalpur madhya pradesh 482001",
+
+    contact: {
+      father: "959467201",
+      other: "N/A",
+      whatsapp: "N/A",
+    },
+    bio: "Artist and Musician Including Electronic Repairing",
+  },
+
+  {
+    id: 45,
+    image: "/images/imagedata/manish_bhamre_id_45.jpg", // Replace with the correct image path
+    name: "मनिष भामरे",
+    age: 25, // Calculate dynamically if required
+    profession: "District Manager at AXIS BANK",
+    gender: "male",
+    income: "06-08 lakh",
+    height: "5'6\"",
+    education: "B.A L.L.B, & MBA",
+    birthDate: "02/03/1999",
+    birthPlace: "सूरत (गुजरात)",
+    birthTime: "6:00 AM",
+    caste: "N/A",
+    fathersName: "अनिल भामरे",
+    mothersName: "ज्योति भामरे",
+    fathersProfession: "शॉप",
+    mothersProfession: "N/A",
+    gotra: "भारतवाज",
+    manglik: "नही",
+    preferences: "N/A",
+    address: "बुरहानपुर मध्य प्रदेश",
+
+    contact: {
+      father: "6261186175",
+      other: "9165564428",
+      whatsapp: "https://wa.me/+91-9165564428",
+    },
+    bio: "District Manager at AXIS BANK",
+  },
+
+  {
+    id: 44,
+    image: "/images/imagedata/komal_kumari_namdev_id_44.jpg", // Replace with the correct image path
+    name: "कोमल कुमारी (नामदेव)",
+    age: 27, // Calculate dynamically if required
+    profession: "private school teacher",
+    gender: "female",
+    income: "N/A", // Update with actual income if available
+    height: "5'0\"",
+    education: "B.A M.A. final, Bed final, RS-CIT Computer cours",
+    birthDate: "08-02-1998",
+    birthPlace: "भरतपुर",
+    birthTime: "N/A",
+    caste: "नामदेव",
+    fathersName: "श्री महेश चंद जलथर (नामदेव)",
+    mothersName: "श्रीमति अंजू कुमारी (नामदेव)",
+    fathersProfession: "business man",
+    mothersProfession: "N/A",
+    gotra: "स्वयं: जलथर, माँ: निर्वानिया, दादी: कामेवर, नानी: सावरिया",
+    manglik: "No",
+    preferences: "good job ya good business",
+    address: "भरतपुर (राज.)",
+
+    contact: {
+      father: "09414222271",
+      other: "09414222271",
+      whatsapp: "https://wa.me/+91-9414222271",
+    },
+    bio: "private school teacher",
+  },
+
+  {
+    id: 43,
+    image: "/images/imagedata/palak_chittora_id_43.jpg", // Replace with the correct image path
+    name: "Palak Chittora",
+    age: 28, // Calculate dynamically if required
+    profession: "Dentist, Fellowship in Cosmetology - Practicing in Hyderabad",
+    gender: "Female",
+    income: "N/A", // Update with actual income if available
+    height: "5'3\"",
+    education: "Bachelor in Dental Surgery, Fellowship in Cosmetology",
+    birthDate: "25/08/1996",
+    birthPlace: "Kota (Raj)",
+    birthTime: "08:45 AM",
+    caste: "Chittora",
+    fathersName: "Rajendra Chittora",
+    mothersName: "Bharti Chittora",
+    fathersProfession: "Engineer (Working in Saudi Arabia Refinery)",
+    mothersProfession: "N/A",
+    gotra: "Father: Chittora, Mother: Sopra",
+    manglik: "N/A",
+    preferences: "N/A", // Add preferences if applicable
+    address: "105, Royal Park, Raipura, Kota",
+
+    contact: {
+      father: "+91 9998957073",
+      other: "+91 9662052073, +966 542429118",
+      whatsapp: null,
+    },
+    bio: "Practicing Dentist with a Fellowship in Cosmetology in Hyderabad, with a passion for singing and music.",
+  },
+
+  {
+    id: 42,
+    image: "/images/imagedata/milan_namdev_id_42.jpg", // Replace with the correct image path
+    name: "Milan Namdev",
+    age: 29, // Calculate dynamically if required
+    profession:
+      "Nursing Officer - Arvindo Medical College Hospital, Indore (MP)",
+    gender: "Male",
+    income: "N/A", // Update with actual income if available
+    height: "5'4\"",
+    education: "B.Sc Nursing, Preparation for AIIMS",
+    birthDate: "02/07/1996",
+    birthPlace: "Manohar Thana",
+    birthTime: "9:36 AM",
+    caste: "Namdev",
+    fathersName: "Dharmendra Namdev",
+    mothersName: "Mamta Namdev",
+    fathersProfession: "Business (Cloth)",
+    mothersProfession: "N/A",
+    gotra: "Jhaliya",
+    manglik: "No",
+    preferences: "N/A", // Add preferences if applicable
+    address: "Manohar Thana, Jhalawar",
+
+    contact: {
+      father: "6377902139",
+      other: null,
+      whatsapp: null,
+    },
+    bio: "Nursing Officer at Arvindo Medical College Hospital, Indore, preparing for AIIMS, looking for a suitable partner.",
+  },
+
+  {
+    id: 41,
+    image: "/images/imagedata/mansi_namdeo_id_41.jpg", // Replace with the correct image path
+    name: "Mansi Namdeo",
+    age: 25, // Calculate dynamically if required
+    profession: "Nursing Officer - Government District Hospital Jabalpur (M.P)",
+    gender: "Female",
+    income: "N/A", // Update with actual income if available
+    height: "5'4\"",
+    education:
+      "B.Sc Nursing (NSCB Medical College Jabalpur), PGDCA, Fellowship in ICU (CMC Vellore)",
+    birthDate: "22/10/1999",
+    birthPlace: "Balaghat",
+    birthTime: "1:00 AM",
+    caste: "Namdeo",
+    fathersName: "Mr. Umashankar Namdeo",
+    mothersName: "Mrs. Nandini Namdeo",
+    fathersProfession: "Business (Mansi Furniture and Electronics)",
+    mothersProfession: "N/A",
+    gotra: "Shandilya",
+    manglik: "No",
+    preferences: "Please contact only Madhya Pradesh residents",
+    address: "NH30 Bhai Bhen Nala, Buha Bichiya, Dist Mandla (M.P)",
+
+    contact: {
+      father: "798700520",
+      other: "810365226",
+      whatsapp: null,
+    },
+    bio: "Nursing Officer at Government District Hospital Jabalpur, looking for a compatible partner from Madhya Pradesh.",
+  },
+
+  {
+    id: 40,
+    image: "/images/imagedata/pavan_rajput_chhipa_id_40.jpg", // Replace with the correct image path
+    name: "Pavan Rajput (Chhipa)",
+    age: 27, // Calculate dynamically if required
+    profession: "Deputy Manager, Bajaj Finance Limited, Gwalior",
+    gender: "Male",
+    income: "N/A", // Update with actual income if available
+    height: "5 feet 7 inches",
+    education: "B.Com, MBA (Finance)",
+    birthDate: "15/09/1996",
+    birthPlace: "Dabra (Gwalior), Madhya Pradesh",
+    birthTime: "1:40 AM",
+    caste: "Rajput",
+    fathersName: "Omprakash Rajput",
+    mothersName: "Geeta Devi",
+    fathersProfession: "Government Employee (MPEB)",
+    mothersProfession: "Homemaker",
+    gotra: "Self: Diggiwar, Maternal Gotra: Bhavda",
+    manglik: "N/A",
+    preferences: "N/A", // Add preferences if applicable
+    address: "Naya Santra, New Colony, Murar, Gwalior",
+
+    contact: {
+      father: "8827842325",
+      other: "9977032810",
+      whatsapp: null,
+    },
+    bio: "Deputy Manager at Bajaj Finance Limited, seeking a partner with similar values and aspirations.",
+  },
+
+  {
+    id: 39,
+    image: "/images/imagedata/कपिल_कुमार_नामदेव_वर्मा_id_39.jpg",
+    name: "कपिल कुमार नामदेव वर्मा",
+    age: 28,
+    profession: "Software Engineer, Krindle Software (American Company)",
+    gender: "Male",
+    income: "N/A",
+    height: "5'6\"",
+    education: "BTech (VIT Chennai)",
+    birthDate: "30-05-1996",
+    birthPlace: "जोधपुर",
+    birthTime: "10:45 PM",
+    caste: "Namdev",
+    fathersName: "श्री अनिल कुमार नामदेव वर्मा",
+    mothersName: "श्रीमति रेखा नामदेव वर्मा",
+    fathersProfession: "Principal (Rajasthan Govt)",
+    mothersProfession: "Senior Teacher (Govt)",
+    gotra:
+      "Self: दांगड़ा, Mother: किजड़ा, Grandmother: कश्यप, Maternal Grandmother: लखमरा",
+    manglik: "No",
+    preferences: "N/A",
+    address: "मकान नम्बर 8ब116 KBHB जोधपुर, राजस्थान",
+    contact: {
+      father: "9414850101",
+      other: null,
+      whatsapp: null,
+    },
+    bio: "An enthusiastic software engineer working with an American company, seeking a life partner with mutual respect and shared dreams.",
+  },
+
+  {
+    id: 38,
+    image: "/images/imagedata/शिवानी_नामदेव_id_38.jpg",
+    name: "शिवानी नामदेव",
+    age: 25,
+    profession: "Sr. Accountant",
+    gender: "Female",
+    income: "N/A",
+    height: "5.4 inches",
+    education: "BSc (Maths), MBA (Accounting & Finance)",
+    birthDate: "14-02-1999",
+    birthPlace: "सागर, मध्य प्रदेश",
+    birthTime: "7:30 PM",
+    caste: "वेध",
+    fathersName: "श्री अनिल कुमार नामदेव",
+    mothersName: "श्रीमति राज मानी नामदेव",
+    fathersProfession: "Govt Servant",
+    mothersProfession: "Private Job",
+    gotra: "N/A",
+    manglik: "No",
+    preferences: "Depends",
+    address: "जबलपुर नाका, Damoh, मध्य प्रदेश",
+    contact: {
+      father: "93400342",
+      other: "934009625",
+      whatsapp: null,
+    },
+    bio: "An accomplished Sr. Accountant, looking for a life partner who values career growth and cultural traditions.",
+  },
+
+  {
+    id: 37,
+    image: "/images/imagedata/jitendra_namdev_id_37.jpg",
+    name: "Jitendra Namdev",
+    age: 29,
+    profession: "Nominated Project Director, National Level Company",
+    gender: "Male",
+    income: "90k-1 lakh/month",
+    height: "5 feet 10 inches",
+    education: "BBA",
+    birthDate: "11-03-1995",
+    birthPlace: "N/A",
+    birthTime: "N/A",
+    caste: "Namdev",
+    fathersName: "Late Mr. Sanman Singh Namdev",
+    mothersName: "Late Mrs. Lalita Namdev",
+    fathersProfession: "N/A",
+    mothersProfession: "N/A",
+    gotra: "Self: जामुनिया, Mother: बड़ोदिया",
+    manglik: "No",
+    preferences: "Simple family with strong cultural roots",
+    address: "District Raisen, 42 km from Bhopal",
+    contact: {
+      father: null,
+      other: "9304408838",
+      whatsapp: "https://wa.me/+91-8962249440",
+    },
+    bio: "A hardworking individual with a strong career in a national-level company, searching for a supportive life partner.",
+  },
+
+  {
+    id: 36,
+    image: "/images/imagedata/shivam_namdev_id_36.jpg",
+    name: "Shivam Namdev",
+    age: 28,
+    profession: "Sr. Engineer",
+    gender: "Male",
+    income: "50k /month",
+    height: "5.8 feet",
+    education: "BE (ME), MBA (HR)",
+    birthDate: "09/10/1996",
+    birthPlace: "Rajnagar, M.P.",
+    birthTime: "9:30 Day",
+    caste: "Namdev",
+    fathersName: "Mr. Ganesh Namdev",
+    mothersName: "S/m. Savitri Namdev",
+    fathersProfession: "Cloth business",
+    mothersProfession: "N/A",
+    gotra: "Bhardwaj",
+    manglik: "No",
+    preferences: "N/A",
+    address: "Rajnagar, District Chhatarpur, M.P.",
+    contact: {
+      father: "9630143018",
+      other: null,
+      whatsapp: null,
+    },
+    bio: "A dedicated Sr. Engineer seeking a suitable match with shared aspirations and family values.",
+  },
+
+  {
     id: 35,
     image: "/images/imagedata/ayushi_rohilla_id_35.jpg",
     name: "Ayushi Rohilla",
@@ -37,18 +377,18 @@ const profiles = [
     mothersName: "Shrimati Mamta",
     fathersProfession: "Businessman",
     mothersProfession: "Homemaker",
-    gotra: "Self: Unn, Mother: Jewda",
+    gotra: "Self: उन्न, Mother: जेवड़ा",
     manglik: "No",
     preferences: "N/A",
     address: "Shamli (UP)-247776",
     contact: {
       father: "991720709",
       other: null,
-      whatsapp: null
+      whatsapp: null,
     },
-    bio: "A dedicated teacher working at Scottish International School, seeking a life partner who values education and family."
+    bio: "A dedicated teacher working at Scottish International School, seeking a life partner who values education and family.",
   },
-  
+
   {
     id: 34,
     image: "/images/imagedata/ankit_namdeo_id_34.jpg",
@@ -74,20 +414,21 @@ const profiles = [
     contact: {
       father: "9589972786",
       other: null,
-      whatsapp: null
+      whatsapp: null,
     },
-    bio: "An accomplished Software Engineer at TCS, looking for a compatible partner with shared aspirations and values."
+    bio: "An accomplished Software Engineer at TCS, looking for a compatible partner with shared aspirations and values.",
   },
-  
+
   {
     id: 33,
     image: "/images/imagedata/ashish_verma_id_33.jpg",
     name: "Ashish Verma",
     age: 33,
-    profession: "Architect & Civil Engineer, SAI CONSULTANTS Bhopal (Building Planning & Designing)",
+    profession:
+      "Architect & Civil Engineer, SAI CONSULTANTS Bhopal (Building Planning & Designing)",
     gender: "Male",
     income: "30K+",
-    height: "5.4\"",
+    height: '5.4"',
     education: "B.E. (Civil Engg.)",
     birthDate: "25/06/1991",
     birthPlace: "Dabra",
@@ -100,15 +441,16 @@ const profiles = [
     gotra: "Self: Mohniya, Dadi: Bijoliya, Nani: Setharia, Mama: Paliya",
     manglik: "No",
     preferences: "Sanskari",
-    address: "(1) Ward No.25 Dabra, District Gwalior, M.P. (2) Flat-F2 Shreeram Vithika, Sarvdharam Colony, Sector-A, Kolar Road, Bhopal, M.P.",
+    address:
+      "(1) Ward No.25 Dabra, District Gwalior, M.P. (2) Flat-F2 Shreeram Vithika, Sarvdharam Colony, Sector-A, Kolar Road, Bhopal, M.P.",
     contact: {
       father: "8770420350",
       other: "9425744219",
-      whatsapp: "https://wa.me/+91-8819985677"
+      whatsapp: "https://wa.me/+91-8819985677",
     },
-    bio: "A highly educated and professional individual working as an Architect & Civil Engineer, seeking a sanskari partner with shared values and aspirations."
+    bio: "A highly educated and professional individual working as an Architect & Civil Engineer, seeking a sanskari partner with shared values and aspirations.",
   },
-  
+
   {
     id: 32,
     image: "/images/imagedata/aanand_sarvariya_id_32.jpg",
@@ -117,9 +459,9 @@ const profiles = [
     profession: "पारले नमकीन",
     gender: "Male",
     income: "15000",
-    height: "5 फुट 6\" इंच",
+    height: '5 फुट 6" इंच',
     education: "बी . काम.",
-    birthDate: "N/A", 
+    birthDate: "N/A",
     birthPlace: "N/A",
     birthTime: "N/A",
     caste: "N/A",
@@ -134,100 +476,102 @@ const profiles = [
     contact: {
       father: "N/A",
       other: "88476-05802",
-      whatsapp: null
+      whatsapp: null,
     },
-    bio: "N/A"
+    bio: "N/A",
   },
-  
-  {
-    "id": 31,
-    "image": "/images/imagedata/vikas_namdev_id_31.jpg",
-    "name": "विकास नामदेव",
-    "age": 28,
-    "profession": "private job- Lab technician",
-    "education": "Bmlt",
-    "birthDate": "21/9/1996",
-    "birthPlace": "हैदरगढ़",
-    "birthTime": "5:10Am",
-    "height": "5'7\"",
-    "caste": "नामदेव",
-    "fathersName": "श्री संतोष नामदेव",
-    "mothersName": "श्रीमति ममता नामदेव",
-    "fathersProfession": "किराना दुकान",
-    "mothersProfession": "गृहणी",
-    "gotra": "बडगूजर",
-    "mamaGotra": "भारद्वाज",
-    "address": "हैदरगढ़ जिला विदिशा(एम.पी.)",
-    "contact": {
-      "father": "93029 24430",
-      "other": "9753463578",
-      "whatsapp": null
-    },
-    "bio": "A dedicated Lab Technician with a strong educational background, currently pursuing a fulfilling career in private employment."
-  },
-  
 
   {
-    "id": 30,
-    "image": "/images/imagedata/deepanshu_namdev_id_30.jpg",
-    "name": "दीपांशु नामदेव",
-    "age": 24,
-    "profession": "स्वयं का नोकरी/व्यव.",
-    "income": "15,000",
-    "height": "5'9\"",
-    "education": "बीए कंप्यूटर, एल एल बी सेकेंड 2, आई टी आई इलेक्ट्रॉनिक 2 वर्ष",
-    "birthDate": "11-10-2000",
-    "birthPlace": "गंजबासौदा/विदिशा जिला (म,प्र)",
-    "birthTime": "दोपहार 3:00 बजे",
-    "caste": "नामदेव",
-    "fathersName": "नरेन्द्र नामदेव",
-    "mothersName": "श्रीमती मिथलेश नामदेव",
-    "fathersProfession": "प्रायवेट, मोबाइल शाप एम पी आनलाइन एडवाइजर, बजाज एलायंज स्टार हेल्थ",
-    "mothersProfession": "गृहिणी",
-    "gotra": "योनियां",
-    "mamaGotra": "बड़गूजर",
-    "manglik": "आंशिक मांगलिक",
-    "grandfather": "रमेश चंद्र नामदेव रिटायर्ड स्वास्थ्य विभाग सुपरवाइजर",
-    "address": "गंजबासौदा जिला विदिशा मध्यप्रदेश",
-    "contact": {
-      "father": "9827566411",
-      "other": "9425070855",
-      "whatsapp": null
+    id: 31,
+    image: "/images/imagedata/vikas_namdev_id_31.jpg",
+    name: "विकास नामदेव",
+    age: 28,
+    profession: "private job- Lab technician",
+    education: "Bmlt",
+    birthDate: "21/9/1996",
+    birthPlace: "हैदरगढ़",
+    birthTime: "5:10Am",
+    height: "5'7\"",
+    caste: "नामदेव",
+    fathersName: "श्री संतोष नामदेव",
+    mothersName: "श्रीमति ममता नामदेव",
+    fathersProfession: "किराना दुकान",
+    mothersProfession: "गृहणी",
+    gotra: "बडगूजर",
+    mamaGotra: "भारद्वाज",
+    address: "हैदरगढ़ जिला विदिशा(एम.पी.)",
+    contact: {
+      father: "93029 24430",
+      other: "9753463578",
+      whatsapp: null,
     },
-    "email": "Topstarnews.mp@gmail.com",
-    "bio": "A dedicated professional with diverse qualifications, currently pursuing a job/business with a focus on growth and opportunities."
+    bio: "A dedicated Lab Technician with a strong educational background, currently pursuing a fulfilling career in private employment.",
   },
-  
+
   {
-    "id": 29,
-    "image": "/images/imagedata/chiranjeev_yash_chauhan_id_29.jpg",
-    "name": "चिरंजीव/ सु.श्री... यश चौहान (नामदेव)",
-    "age": 36,
-    "profession": "Working As Tex Consultant And Accounts Executive In CA Firm, पुणे, महाराष्ट्र",
-    "gender": "Male",
-    "income": "50,000",
-    "height": "5.6 इंच",
-    "education": "CA Intermediate (From ICAI DELHI), B.com, M.com (From DAVV Indore)",
-    "birthDate": "09/12/1988",
-    "birthPlace": "धार, मध्य प्रदेश",
-    "birthTime": "4.20 Am",
-    "caste": "नामदेव",
-    "fathersName": "स्वर्गीय श्री राधेश्याम चौहान (नामदेव)",
-    "mothersName": "श्रीमती रजनी चौहान (नामदेव)",
-    "fathersProfession": "N/A",
-    "mothersProfession": "शिक्षिका (प्राइवेट स्कूल)",
-    "gotra": "Khichiya",
-    "manglik": "No",
-    "preferences": "शिक्षित",
-    "address": "गली न. 6, मुक्तानंद परिसर धामनोद, जिला धार, मध्य प्रदेश",
-    "contact": {
-      "father": "N/A",
-      "other": "9754776657",
-      "whatsapp": "https://wa.me/+91-9713264602"
+    id: 30,
+    image: "/images/imagedata/deepanshu_namdev_id_30.jpg",
+    name: "दीपांशु नामदेव",
+    age: 24,
+    profession: "स्वयं का नोकरी/व्यव.",
+    income: "15,000",
+    height: "5'9\"",
+    education: "बीए कंप्यूटर, एल एल बी सेकेंड 2, आई टी आई इलेक्ट्रॉनिक 2 वर्ष",
+    birthDate: "11-10-2000",
+    birthPlace: "गंजबासौदा/विदिशा जिला (म,प्र)",
+    birthTime: "दोपहार 3:00 बजे",
+    caste: "नामदेव",
+    fathersName: "नरेन्द्र नामदेव",
+    mothersName: "श्रीमती मिथलेश नामदेव",
+    fathersProfession:
+      "प्रायवेट, मोबाइल शाप एम पी आनलाइन एडवाइजर, बजाज एलायंज स्टार हेल्थ",
+    mothersProfession: "गृहिणी",
+    gotra: "योनियां",
+    mamaGotra: "बड़गूजर",
+    manglik: "आंशिक मांगलिक",
+    grandfather: "रमेश चंद्र नामदेव रिटायर्ड स्वास्थ्य विभाग सुपरवाइजर",
+    address: "गंजबासौदा जिला विदिशा मध्यप्रदेश",
+    contact: {
+      father: "9827566411",
+      other: "9425070855",
+      whatsapp: null,
     },
-    "bio": "A dedicated professional working as a Tex Consultant and Accounts Executive, seeking a compatible partner with shared values and aspirations."
+    email: "Topstarnews.mp@gmail.com",
+    bio: "A dedicated professional with diverse qualifications, currently pursuing a job/business with a focus on growth and opportunities.",
   },
-  
+
+  {
+    id: 29,
+    image: "/images/imagedata/chiranjeev_yash_chauhan_id_29.jpg",
+    name: "चिरंजीव/ सु.श्री... यश चौहान (नामदेव)",
+    age: 36,
+    profession:
+      "Working As Tex Consultant And Accounts Executive In CA Firm, पुणे, महाराष्ट्र",
+    gender: "Male",
+    income: "50,000",
+    height: "5.6 इंच",
+    education:
+      "CA Intermediate (From ICAI DELHI), B.com, M.com (From DAVV Indore)",
+    birthDate: "09/12/1988",
+    birthPlace: "धार, मध्य प्रदेश",
+    birthTime: "4.20 Am",
+    caste: "नामदेव",
+    fathersName: "स्वर्गीय श्री राधेश्याम चौहान (नामदेव)",
+    mothersName: "श्रीमती रजनी चौहान (नामदेव)",
+    fathersProfession: "N/A",
+    mothersProfession: "शिक्षिका (प्राइवेट स्कूल)",
+    gotra: "Khichiya",
+    manglik: "No",
+    preferences: "शिक्षित",
+    address: "गली न. 6, मुक्तानंद परिसर धामनोद, जिला धार, मध्य प्रदेश",
+    contact: {
+      father: "N/A",
+      other: "9754776657",
+      whatsapp: "https://wa.me/+91-9713264602",
+    },
+    bio: "A dedicated professional working as a Tex Consultant and Accounts Executive, seeking a compatible partner with shared values and aspirations.",
+  },
+
   {
     id: 28,
     image: "/images/imagedata/abhishek_namdev_id_28.jpg",
@@ -237,7 +581,8 @@ const profiles = [
     gender: "Male",
     income: "As per company norms",
     height: "5'6\"",
-    education: "एम एस सी कम्प्यूटर साइंस, स्टेनो शार्ट हैंड, डी सी ए, सी पी सी टी, हिन्दी टाइपिंग",
+    education:
+      "एम एस सी कम्प्यूटर साइंस, स्टेनो शार्ट हैंड, डी सी ए, सी पी सी टी, हिन्दी टाइपिंग",
     birthDate: "18-03-1995",
     birthPlace: "सागर म.प्र.",
     birthTime: "रात्रि -11:50",
@@ -253,17 +598,18 @@ const profiles = [
     contact: {
       father: "N/A",
       other: "9425626022, 9407542400",
-      whatsapp: "N/A"
+      whatsapp: "N/A",
     },
-    bio: "एक समर्पित पेशेवर व्यक्ति जो teleperformance में काम करता है, समान विचारधारा और मूल्यों के साथ उपयुक्त साथी की तलाश में है।"
+    bio: "एक समर्पित पेशेवर व्यक्ति जो teleperformance में काम करता है, समान विचारधारा और मूल्यों के साथ उपयुक्त साथी की तलाश में है।",
   },
-  
+
   {
     id: 27,
     image: "/images/imagedata/jay_prakash_chimpa_id_27.jpg",
     name: "जय प्रकाश छिंपा",
     age: 32,
-    profession: "प्राईवेट नौकरी एवं व्यवसाय (मेडीकल दुकान में एकाउंटेंट का कार्य) एवम् जिम का कार्य",
+    profession:
+      "प्राईवेट नौकरी एवं व्यवसाय (मेडीकल दुकान में एकाउंटेंट का कार्य) एवम् जिम का कार्य",
     gender: "Male",
     income: "60,000/-",
     height: "5'8\"",
@@ -283,11 +629,11 @@ const profiles = [
     contact: {
       father: "N/A",
       other: "7568144297",
-      whatsapp: "https://wa.me/+91-7568144297"
+      whatsapp: "https://wa.me/+91-7568144297",
     },
-    bio: "प्राईवेट नौकरी एवं व्यवसाय (मेडीकल दुकान में एकाउंटेंट का कार्य) एवम् जिम का कार्य करने वाले एक समर्पित व्यक्ति, जो समान विचारधारा और मूल्यों के साथ एक उपयुक्त साथी की तलाश में हैं।"
+    bio: "प्राईवेट नौकरी एवं व्यवसाय (मेडीकल दुकान में एकाउंटेंट का कार्य) एवम् जिम का कार्य करने वाले एक समर्पित व्यक्ति, जो समान विचारधारा और मूल्यों के साथ एक उपयुक्त साथी की तलाश में हैं।",
   },
-  
+
   {
     id: 26,
     image: "/images/imagedata/sourabh_namdev_id_26.jpg",
@@ -304,20 +650,22 @@ const profiles = [
     caste: "Namdev",
     fathersName: "Mr. Mukesh Kumar Namdev",
     mothersName: "Mrs. Saroj Namdev",
-    fathersProfession: "Assistant Sub-Inspector at Thana Station Road Pipariya Dist. Narmdapuram (MP)",
+    fathersProfession:
+      "Assistant Sub-Inspector at Thana Station Road Pipariya Dist. Narmdapuram (MP)",
     mothersProfession: "Housewife",
     gotra: "Janoriya",
     manglik: "No",
     preferences: "समकक्ष",
-    address: "Gaytri Nagar, Sandiya Road, Maharana Pratap ward Pipariya Dist. Narmdapuram (MP)",
+    address:
+      "Gaytri Nagar, Sandiya Road, Maharana Pratap ward Pipariya Dist. Narmdapuram (MP)",
     contact: {
       father: "N/A",
       other: "9424486955, 7587619487",
-      whatsapp: "https://wa.me/+91-9424486955"
+      whatsapp: "https://wa.me/+91-9424486955",
     },
-    bio: "A committed professional working in the Police Department, looking for a compatible partner with similar values."
+    bio: "A committed professional working in the Police Department, looking for a compatible partner with similar values.",
   },
-  
+
   {
     id: 25,
     image: "/images/imagedata/gagan_namdev_id_25.jpg",
@@ -343,9 +691,9 @@ const profiles = [
     contact: {
       father: "N/A",
       other: "9425134029",
-      whatsapp: "https://wa.me/+91-9425134029"
+      whatsapp: "https://wa.me/+91-9425134029",
     },
-    bio: "A dedicated individual working in private job with an income of 35000 per month, seeking a compatible partner."
+    bio: "A dedicated individual working in private job with an income of 35000 per month, seeking a compatible partner.",
   },
   {
     id: 24,
@@ -358,7 +706,7 @@ const profiles = [
     height: "5 ft",
     education: [
       "Bsc Agriculture, RVSKVV Gwalior (2019)",
-      "MSC (Plant Genetics), JNKVV Jabalpur (2021)"
+      "MSC (Plant Genetics), JNKVV Jabalpur (2021)",
     ],
     birthDate: "04/07/1997",
     birthPlace: "Ramtek",
@@ -376,11 +724,11 @@ const profiles = [
       father: "9407307302",
       mother: "7722868483",
       other: "N/A",
-      whatsapp: "N/A"
+      whatsapp: "N/A",
     },
-    bio: "A dedicated Assistant Manager at Central Bank of India, passionate about agriculture and plant genetics, seeking a compatible partner with shared values and aspirations."
+    bio: "A dedicated Assistant Manager at Central Bank of India, passionate about agriculture and plant genetics, seeking a compatible partner with shared values and aspirations.",
   },
-  
+
   {
     id: 23,
     image: "/images/imagedata/uma_namdev_id_23.jpg", // Replace with the correct image path

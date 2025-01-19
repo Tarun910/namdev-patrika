@@ -34,6 +34,106 @@ export default function Home() {
     //   gender: "male",
     //   image: "/images/download (4).jpg",
     // },
+    
+    {
+      id: 46,
+      name: "Paras Namdev",
+      profession: "Artist and Musician Including Electronic Repairing",
+      age: 24,
+      gender: "male",
+      image: "/images/imagedata/paras_namdev_id_46.jpg"
+    },
+    
+    {
+      id: 45,
+      name: "मनिष भामरे",
+      profession: "District Manager at AXIS BANK",
+      age: 25,
+      gender: "male",
+      image: "/images/imagedata/manish_bhamre_id_45.jpg"
+    },
+    
+    {
+      id: 44,
+      name: "कोमल कुमारी (नामदेव)",
+      profession: "private school teacher",
+      age: 27,
+      gender: "female",
+      image: "/images/imagedata/komal_kumari_namdev_id_44.jpg"
+    },
+    
+    {
+      id: 43,
+      name: "Palak Chittora",
+      profession: "Dentist, Fellowship in Cosmetology - Practicing in Hyderabad",
+      age: 28,
+      gender: "female",
+      image: "/images/imagedata/palak_chittora_id_43.jpg"
+    },
+    
+    {
+      id: 42,
+      name: "Milan Namdev",
+      profession: "Nursing Officer - Arvindo Medical College Hospital, Indore (MP)",
+      age: 29,
+      gender: "male",
+      image: "/images/imagedata/milan_namdev_id_42.jpg"
+    },
+    
+    {
+      id: 41,
+      name: "Mansi Namdeo",
+      profession: "Nursing Officer - Government District Hospital Jabalpur (M.P)",
+      age: 25,
+      gender: "female",
+      image: "/images/imagedata/mansi_namdeo_id_41.jpg"
+    },
+    
+    {
+      id: 40,
+      name: "Pavan Rajput (Chhipa)",
+      profession: "Deputy Manager, Bajaj Finance Limited, Gwalior",
+      age: 27,
+      gender: "male",
+      image: "/images/imagedata/pavan_rajput_chhipa_id_40.jpg"
+    },
+    
+    {
+      id: 39,
+      name: "कपिल कुमार नामदेव वर्मा",
+      profession: "Software Engineer, Krindle Software (American Company)",
+      age: 28,
+      gender: "male",
+      image: "/images/imagedata/कपिल_कुमार_नामदेव_वर्मा_id_39.jpg"
+    },
+    
+    {
+      id: 38,
+      name: "शिवानी नामदेव",
+      profession: "Sr. Accountant",
+      age: 25,
+      gender: "female",
+      image: "/images/imagedata/शिवानी_नामदेव_id_38.jpg"
+    },
+    
+    {
+      id: 37,
+      name: "Jitendra Namdev",
+      profession: "Nominated Project Director",
+      age: 28,
+      gender: "male",
+      image: "/images/imagedata/jitendra_namdev_id_37.jpg"
+    },
+    
+    {
+      id: 36,
+      name: "Shivam Namdev",
+      profession: "Sr. Engineer",
+      age: 28,
+      gender: "male",
+      image: "/images/imagedata/shivam_namdev_id_36.jpg"
+    },
+    
     {
       id: 35,
       name: "Ayushi Rohilla",
