@@ -35,23 +35,122 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
+      id: 35,
+      name: "Ayushi Rohilla",
+      profession: "Teacher, Scottish International School, Shamli (UP)",
+      age: 29,
+      gender: "female",
+      image: "/images/imagedata/ayushi_rohilla_id_35.jpg",
+    },
+    {
+      id: 34,
+      name: "Ankit Namdeo",
+      profession: "Software Engineer, TCS",
+      age: 32,
+      gender: "male",
+      image: "/images/imagedata/ankit_namdeo_id_34.jpg",
+    },
+    {
+      id: 33,
+      name: "Ashish Verma",
+      profession:
+        "Architect & Civil Engineer, SAI CONSULTANTS Bhopal (Building Planning & Designing)",
+      age: 33,
+      gender: "male",
+      image: "/images/imagedata/ashish_verma_id_33.jpg",
+    },
+
+    {
+      id: 32,
+      name: "आनंद सरबरिया",
+      profession: "पारले नमकीन",
+      age: 37,
+      gender: "male",
+      image: "/images/imagedata/aanand_sarvariya_id_32.jpg",
+    },
+
+    {
+      id: 31,
+      name: "विकास नामदेव",
+      profession: "private job- Lab technician",
+      age: 28,
+      gender: "male",
+      image: "/images/imagedata/vikas_namdev_id_31.jpg",
+    },
+
+    {
+      id: 30,
+      name: "दीपांशु नामदेव",
+      profession: "स्वयं का नोकरी/व्यव.",
+      age: 24,
+      gender: "male",
+      image: "/images/imagedata/deepanshu_namdev_id_30.jpg",
+    },
+
+    {
+      id: 29,
+      name: "चिरंजीव/ सु.श्री... यश चौहान (नामदेव)",
+      profession:
+        "Working As Tex Consultant And Accounts Executive In CA Firm, पुणे, महाराष्ट्र",
+      age: 36,
+      gender: "male",
+      image: "/images/imagedata/chiranjeev_yash_chauhan_id_29.jpg",
+    },
+
+    {
+      id: 28,
+      name: "अभिषेक नामदेव",
+      profession: "teleperformance, indore",
+      age: 29,
+      gender: "male",
+      image: "/images/imagedata/abhishek_namdev_id_28.jpg",
+    },
+    {
+      id: 27,
+      name: "जय प्रकाश छिंपा",
+      profession:
+        "प्राईवेट नौकरी एवं व्यवसाय (मेडीकल दुकान में एकाउंटेंट का कार्य) एवम् जिम का कार्य",
+      age: 32,
+      gender: "male",
+      image: "/images/imagedata/jay_prakash_chimpa_id_27.jpg",
+    },
+
+    {
+      id: 26,
+      name: "Sourabh Namdev",
+      profession: "Police Department Bhopal",
+      age: 27,
+      gender: "male",
+      image: "/images/imagedata/sourabh_namdev_id_26.jpg",
+    },
+
+    {
+      id: 25,
+      name: "गगन नामदेव",
+      profession: "प्रायवेट जॉब",
+      age: 30,
+      gender: "male",
+      image: "/images/imagedata/gagan_namdev_id_25.jpg",
+    },
+
+    {
       id: 24,
       name: "Shivani Bhardwaj (Namdeo)",
       profession: "Assistant Manager at Central Bank of India",
       age: 26,
       gender: "female",
-      image: "/images/imagedata/shivani_bhardwaj_namdeo_id_24.jpg"
+      image: "/images/imagedata/shivani_bhardwaj_namdeo_id_24.jpg",
     },
-    
+
     {
       id: 23,
       name: "उमा नामदेव",
       profession: "HR Trainee, दैनिक भास्कर, भोपाल",
       age: 28, // Calculated dynamically if required
       gender: "female",
-      image: "/images/imagedata/uma_namdev_id_23.jpg"
+      image: "/images/imagedata/uma_namdev_id_23.jpg",
     },
-    
+
     {
       id: 22,
       name: "शानू नामदेव",
