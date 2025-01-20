@@ -42,21 +42,23 @@ const profiles = [
     contact: {
       father: "9826432413",
       other: "9907106551",
-      whatsapp: null
+      whatsapp: null,
     },
-    bio: "A dedicated professional working in the manganese mining industry, seeking a compatible partner."
+    bio: "A dedicated professional working in the manganese mining industry, seeking a compatible partner.",
   },
-  
+
   {
     id: 54,
     image: "/images/imagedata/sonam_namdev_id_54.jpg",
     name: "कु.सोनम (नामदेव)",
     age: 36,
-    profession: "नर्सिंग आफीसर/क्वालिटी आफीसर जिला चिकित्सालय मण्डला (मध्यप्रदेश) सरकारी नौकरी",
+    profession:
+      "नर्सिंग आफीसर/क्वालिटी आफीसर जिला चिकित्सालय मण्डला (मध्यप्रदेश) सरकारी नौकरी",
     gender: "Female",
     income: "6 लाख 50 हजार रुपए",
     height: "5 फिट 8 इंच",
-    education: "बी.एस.सी.नर्सिंग ,पी.जी. डिप्लोमा इन हेल्थकेयर क्वालिटी  मेनेजमेंट",
+    education:
+      "बी.एस.सी.नर्सिंग ,पी.जी. डिप्लोमा इन हेल्थकेयर क्वालिटी  मेनेजमेंट",
     birthDate: "05/08/1987",
     birthPlace: "जबलपुर (मध्यप्रदेश)",
     birthTime: "11 AM",
@@ -72,12 +74,11 @@ const profiles = [
     contact: {
       father: "7470954254",
       other: "9425851912",
-      whatsapp: null
+      whatsapp: null,
     },
-    bio: "A dedicated professional working in the Irrigation Department (Private), seeking a compatible partner with shared values and aspirations."
+    bio: "A dedicated professional working in the Irrigation Department (Private), seeking a compatible partner with shared values and aspirations.",
   },
-  
-  
+
   {
     id: 53,
     image: "/images/imagedata/rajrajeshwar_namdev_id_53.jpg", // Replace with the correct image path
@@ -103,12 +104,11 @@ const profiles = [
     contact: {
       father: null,
       other: "9826473442, 9691713563",
-      whatsapp: "https://wa.me/+91-9826473442"
+      whatsapp: "https://wa.me/+91-9826473442",
     },
-    bio: "प्राइवेट नौकरी में कार्यरत, पढ़े-लिखे और जिम्मेदार व्यक्ति। आंशिक मांगलिक होने के कारण परिवार की सहमति के साथ संगत रिश्ता तलाश कर रहे हैं।"
+    bio: "प्राइवेट नौकरी में कार्यरत, पढ़े-लिखे और जिम्मेदार व्यक्ति। आंशिक मांगलिक होने के कारण परिवार की सहमति के साथ संगत रिश्ता तलाश कर रहे हैं।",
   },
-  
-  
+
   {
     id: 52,
     image: "/images/imagedata/vikas_namdev_id_52.jpg", // Replace with the correct image path
@@ -125,7 +125,8 @@ const profiles = [
     caste: "नामदेव",
     fathersName: "श्री धर्मेंद्र नामदेव",
     mothersName: "श्रीमती उर्मिला नामदेव",
-    fathersProfession: "साड़ी फॉल पिको मैचिंग सेंटर, गोवर्धन टॉकीज के पीछे छतरपुर",
+    fathersProfession:
+      "साड़ी फॉल पिको मैचिंग सेंटर, गोवर्धन टॉकीज के पीछे छतरपुर",
     mothersProfession: "ग्रहकार",
     gotra: "पनगारिया",
     manglik: "N/A", // Not specified
@@ -134,11 +135,11 @@ const profiles = [
     contact: {
       father: "9285465532",
       other: null,
-      whatsapp: "https://wa.me/+91-9425882525"
+      whatsapp: "https://wa.me/+91-9425882525",
     },
-    bio: "ऑनलाईन फ्लिपकार्ट सर्विस में कार्यरत, परिवार की जिम्मेदारियों को प्राथमिकता देने वाले एक मेहनती व्यक्ति।"
+    bio: "ऑनलाईन फ्लिपकार्ट सर्विस में कार्यरत, परिवार की जिम्मेदारियों को प्राथमिकता देने वाले एक मेहनती व्यक्ति।",
   },
-  
+
   {
     id: 51,
     image: "/images/imagedata/bhupendra_namdev_id_51.jpg", // Replace with the correct image path
@@ -164,11 +165,11 @@ const profiles = [
     contact: {
       father: "9630882439",
       other: "7566302549 (व्हाट्सएप)",
-      whatsapp: "https://wa.me/+91-7566302549"
+      whatsapp: "https://wa.me/+91-7566302549",
     },
-    bio: "मोटर इलेक्ट्रॉनिक क्षेत्र में कार्यरत एक मेहनती व्यक्ति, जो अपने व्यवसाय में स्थिरता और उन्नति की तलाश में है।"
+    bio: "मोटर इलेक्ट्रॉनिक क्षेत्र में कार्यरत एक मेहनती व्यक्ति, जो अपने व्यवसाय में स्थिरता और उन्नति की तलाश में है।",
   },
-  
+
   {
     id: 50,
     image: "/images/imagedata/arun_namdev_id_50.jpg", // Replace with the correct image path
@@ -194,11 +195,11 @@ const profiles = [
     contact: {
       father: "9630389656",
       other: "N/A", // No additional contact provided
-      whatsapp: "N/A" // No WhatsApp number mentioned
+      whatsapp: "N/A", // No WhatsApp number mentioned
     },
-    bio: "एक मेहनती और व्यवसायिक व्यक्ति जो सिलाई मशीन और टेरिग मटेरियल के व्यवसाय में है।"
+    bio: "एक मेहनती और व्यवसायिक व्यक्ति जो सिलाई मशीन और टेरिग मटेरियल के व्यवसाय में है।",
   },
-  
+
   {
     id: 49,
     image: "/images/imagedata/shivani_namdev_id_49.jpg", // Replace with the correct image path
@@ -224,17 +225,18 @@ const profiles = [
     contact: {
       father: "9617189727",
       other: "8225934354", // WhatsApp number
-      whatsapp: "https://wa.me/+91-8225934354"
+      whatsapp: "https://wa.me/+91-8225934354",
     },
-    bio: "एक साधारण व्यक्तित्व की महिला जो अपने परिवार के साथ समय बिताना पसंद करती है।"
+    bio: "एक साधारण व्यक्तित्व की महिला जो अपने परिवार के साथ समय बिताना पसंद करती है।",
   },
-  
+
   {
     id: 48,
     image: "/images/imagedata/varun_namdev_id_48.jpg", // Replace with the correct image path
     name: "चिरंजीव / वरुण नामदेव",
     age: 30, // Calculated dynamically based on birth year (2024 - 1994)
-    profession: "लीगल मैनेजर (कैप्री ग्लोबल हाउसिंग फाइनेंस लिमिटेड) एवं अधिवक्ता डिस्ट्रिक्ट कोर्ट जिला छिंदवाड़ा।",
+    profession:
+      "लीगल मैनेजर (कैप्री ग्लोबल हाउसिंग फाइनेंस लिमिटेड) एवं अधिवक्ता डिस्ट्रिक्ट कोर्ट जिला छिंदवाड़ा।",
     gender: "male",
     income: "N/A", // No income data provided
     height: "5.7",
@@ -254,11 +256,11 @@ const profiles = [
     contact: {
       father: "9424949955",
       other: "9770091099",
-      whatsapp: "https://wa.me/+91-9424949955"
+      whatsapp: "https://wa.me/+91-9424949955",
     },
-    bio: "A dedicated legal professional serving as Legal Manager at Capri Global Housing Finance Limited and practicing advocate at District Court, Chhindwara, seeking a compatible life partner."
+    bio: "A dedicated legal professional serving as Legal Manager at Capri Global Housing Finance Limited and practicing advocate at District Court, Chhindwara, seeking a compatible life partner.",
   },
-  
+
   {
     id: 47,
     image: "/images/imagedata/raksha_namdev_id_47.jpg", // Replace with the correct image path
@@ -267,7 +269,7 @@ const profiles = [
     profession: "working at govt.high.school as a guest faculty",
     gender: "female",
     income: "N/A", // No income data provided
-    height: "5\"6\"",
+    height: '5"6"',
     education: "B.sc(c.a),m.sc(c.s),B.ed.",
     birthDate: "05/08/1996",
     birthPlace: "सलामतपुर",
@@ -280,15 +282,16 @@ const profiles = [
     gotra: "बामाेनिया",
     manglik: "नहीं",
     preferences: "contact only Mp state & Darji Namdev",
-    address: "सिचाई कॉलोनी के सामने मुख्य मार्ग सलामतपुर, District Raisen (m.p)",
+    address:
+      "सिचाई कॉलोनी के सामने मुख्य मार्ग सलामतपुर, District Raisen (m.p)",
     contact: {
       father: "8770089184",
       other: "8827842325, 9977032810",
-      whatsapp: "https://wa.me/+91-958409958"
+      whatsapp: "https://wa.me/+91-958409958",
     },
-    bio: "A dedicated professional working as a guest faculty at Govt. High School, seeking a partner from MP state & Darji Namdev community."
+    bio: "A dedicated professional working as a guest faculty at Govt. High School, seeking a partner from MP state & Darji Namdev community.",
   },
-  
+
   {
     id: 46,
     image: "/images/imagedata/paras_namdev_id_46.jpg", // Replace with the correct image path
@@ -1705,11 +1708,16 @@ const Profile = () => {
   //   window.location.href = `+91+${selectedProfile.contact.whatsapp}`; // Replace 'phone' with actual phone number field if available
   // };
   const handleCallClick = () => {
-    const phoneNumber = `+91${selectedProfile.contact.whatsapp}`; // Prepend country code to the phone number
+    // Sanitize the phone number by removing any non-numeric characters (except '+')
+    let phoneNumber = selectedProfile.contact.whatsapp.replace(/[^0-9+]/g, "");
+
+    // Ensure it starts with a '+' sign and prepend country code if necessary
+    if (!phoneNumber.startsWith("+")) {
+      phoneNumber = `+91${phoneNumber}`; // Default to India (+91), adjust for other countries if needed
+    }
+
     window.location.href = `tel:${phoneNumber}`; // Redirect to the phone number
   };
-  
-
 
   const handleMessageClick = () => {
     window.location.href = `mailto:${selectedProfile.email}`; // Open email client with the profile's email
