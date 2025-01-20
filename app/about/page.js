@@ -74,7 +74,7 @@ const About = () => {
             </a>
           </p>
         
-          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mt-6">
+          {/* <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mt-6">
             Features We Offer
           </h3>
           <ul className="list-disc text-left text-lg text-gray-800 dark:text-gray-300 space-y-3 mt-4 mx-auto md:w-2/3">
@@ -85,7 +85,7 @@ const About = () => {
             <li><strong>Community Engagement:</strong> Participate in community events, meetups, and matrimonial gatherings where you can meet potential partners in person.</li>
             <li><strong>Verified Accounts:</strong> Rely on verified profiles for a secure and authentic matchmaking experience, ensuring that the profiles you interact with are genuine.</li>
             <li><strong>Reliable Support:</strong> Our customer support team is here to assist you with any questions or concerns, providing timely and helpful responses for a smooth experience.</li>
-          </ul>
+          </ul> */}
 
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mt-6">
             Join Us Now
