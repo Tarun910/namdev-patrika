@@ -34,6 +34,87 @@ export default function Home() {
     //   gender: "male",
     //   image: "/images/download (4).jpg",
     // },
+    {
+      id: 55,
+      name: "पीयूष शांडिलकर(नामदेव)",
+      profession: "माइन मेट (मैंगनीज माइंस)",
+      salary: "₹20000",
+      age: 36,
+      gender: "male",
+      image: "/images/imagedata/piyush_shandilkar_id_55.jpg"
+    },
+    
+    {
+      id: 54,
+      name: "कु.सोनम (नामदेव)",
+      profession: "नर्सिंग आफीसर/क्वालिटी आफीसर जिला चिकित्सालय मण्डला (मध्यप्रदेश) सरकारी नौकरी",
+      age: 38,
+      gender: "female",
+      image: "/images/imagedata/sonam_namdev_id_54.jpg"
+    },
+    
+    {
+      id: 53,
+      name: "राजराजेश्वर नामदेव",
+      profession: "प्राइवेट नौकरी",
+      age: 29, // Calculated based on DOB (2024 - 1995)
+      gender: "male",
+      image: "/images/imagedata/rajrajeshwar_namdev_id_53.jpg"
+    },
+    {
+      id: 52,
+      name: "विकास नामदेव",
+      profession: "ऑनलाईन फ्लिपकार्ट सर्विस",
+      age: 25, // Calculated based on DOB (2024 - 1999)
+      gender: "male",
+      image: "/images/imagedata/vikas_namdev_id_52.jpg"
+    },
+    
+    {
+      id: 51,
+      name: "भुपेंद्र नामदेव (जितेन्द्र)",
+      profession: "मोटर इलेक्ट्रॉनिक",
+      age: 26, // Calculated based on DOB (2024 - 1998)
+      gender: "male",
+      image: "/images/imagedata/bhupendra_namdev_id_51.jpg"
+    },
+    
+    {
+      id: 50,
+      name: "अरुण नामदेव",
+      profession: "सिलाई मशीन टेरिग मटेरियल थोक फुटकर",
+      age: 27, // Calculated based on DOB (2024 - 1996)
+      gender: "male",
+      image: "/images/imagedata/arun_namdev_id_50.jpg"
+    },
+    
+    {
+      id: 49,
+      name: "Shivani Namdev",
+      profession: "N/A", // Self-occupation not specified
+      age: 23, // Calculated based on DOB (2024 - 2000)
+      gender: "female",
+      image: "/images/imagedata/shivani_namdev_id_49.jpg"
+    },
+    
+    {
+      id: 48,
+      name: "चिरंजीव / वरुण नामदेव",
+      profession: "लीगल मैनेजर (कैप्री ग्लोबल हाउसिंग फाइनेंस लिमिटेड) एवं अधिवक्ता डिस्ट्रिक्ट कोर्ट जिला छिंदवाड़ा।",
+      age: 30, // Calculated dynamically based on birth year (2024 - 1994)
+      gender: "male",
+      image: "/images/imagedata/varun_namdev_id_48.jpg"
+    },
+    
+    {
+      id: 47,
+      name: "रक्षा (नामदेव)",
+      profession: "Guest Faculty at Govt. High School",
+      age: 27,
+      gender: "female",
+      image: "/images/imagedata/raksha_namdev_id_47.jpg"
+    },
+    
     
     {
       id: 46,

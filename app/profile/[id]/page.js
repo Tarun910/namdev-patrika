@@ -20,6 +20,276 @@ const profiles = [
   //   bio: "A professional looking for a partner with similar interests and values.",
   // },
   {
+    id: 55,
+    image: "/images/imagedata/piyush_shandilkar_id_55.jpg",
+    name: "पीयूष शांडिलकर(नामदेव)",
+    age: 36,
+    profession: "माइन मेट (मैंगनीज माइंस)",
+    salary: "₹20000",
+    gender: "Male",
+    income: "₹20000",
+    height: "5'6\"",
+    education: "एम काॅम",
+    birthDate: "20-12-1988",
+    birthPlace: "मंडला",
+    fathersName: "श्री रमेश शांडिलकर (नामदेव)",
+    mothersName: "सुधा शांडिलकर (नामदेव)",
+    fathersProfession: "रिटायर  हैड कर्लक",
+    gotra: "N/A",
+    manglik: "N/A",
+    preferences: "*",
+    address: "बालाघाट (म प्र)",
+    contact: {
+      father: "9826432413",
+      other: "9907106551",
+      whatsapp: null
+    },
+    bio: "A dedicated professional working in the manganese mining industry, seeking a compatible partner."
+  },
+  
+  {
+    id: 54,
+    image: "/images/imagedata/sonam_namdev_id_54.jpg",
+    name: "कु.सोनम (नामदेव)",
+    age: 36,
+    profession: "नर्सिंग आफीसर/क्वालिटी आफीसर जिला चिकित्सालय मण्डला (मध्यप्रदेश) सरकारी नौकरी",
+    gender: "Female",
+    income: "6 लाख 50 हजार रुपए",
+    height: "5 फिट 8 इंच",
+    education: "बी.एस.सी.नर्सिंग ,पी.जी. डिप्लोमा इन हेल्थकेयर क्वालिटी  मेनेजमेंट",
+    birthDate: "05/08/1987",
+    birthPlace: "जबलपुर (मध्यप्रदेश)",
+    birthTime: "11 AM",
+    caste: "नामदेव",
+    fathersName: "सुभाष (नामदेव)",
+    mothersName: "श्रीमती सरोज (नामदेव)",
+    fathersProfession: "सेवानिवृत",
+    mothersProfession: "सरकारी नौकरी जिला चिकित्सालय मण्डला में",
+    gotra: "भारद्वाज",
+    manglik: "नहीं",
+    preferences: "समकक्ष",
+    address: "आशीर्वाद होटल के पास हीरा कालोनी बिंझिया मण्डला (मध्यप्रदेश)",
+    contact: {
+      father: "7470954254",
+      other: "9425851912",
+      whatsapp: null
+    },
+    bio: "A dedicated professional working in the Irrigation Department (Private), seeking a compatible partner with shared values and aspirations."
+  },
+  
+  
+  {
+    id: 53,
+    image: "/images/imagedata/rajrajeshwar_namdev_id_53.jpg", // Replace with the correct image path
+    name: "राजराजेश्वर नामदेव",
+    age: 29, // Calculated based on DOB (2024 - 1995)
+    profession: "प्राइवेट नौकरी",
+    gender: "Male",
+    income: "N/A", // Not specified
+    height: "5'8\"",
+    education: "बी.एस सी., पीजीडीसीए",
+    birthDate: "16/05/1995",
+    birthPlace: "विदिशा",
+    birthTime: "दोप. 12:45 बजे",
+    caste: "नामदेव",
+    fathersName: "श्री दीपक कुमार नामदेव जी",
+    mothersName: "श्रीमती कुमुद नामदेव",
+    fathersProfession: "प्राइवेट नौकरी",
+    mothersProfession: "शिक्षिका",
+    gotra: "स्वयं: जनोसिया, निषेध: घुराठिया, खोइया",
+    manglik: "आंशिक मांगलिक",
+    preferences: "N/A", // Not specified
+    address: "किले अंदर वैस मार्ग, विदिशा (मध्यप्रदेश)",
+    contact: {
+      father: null,
+      other: "9826473442, 9691713563",
+      whatsapp: "https://wa.me/+91-9826473442"
+    },
+    bio: "प्राइवेट नौकरी में कार्यरत, पढ़े-लिखे और जिम्मेदार व्यक्ति। आंशिक मांगलिक होने के कारण परिवार की सहमति के साथ संगत रिश्ता तलाश कर रहे हैं।"
+  },
+  
+  
+  {
+    id: 52,
+    image: "/images/imagedata/vikas_namdev_id_52.jpg", // Replace with the correct image path
+    name: "विकास नामदेव",
+    age: 25, // Calculated based on DOB (2024 - 1999)
+    profession: "ऑनलाईन फ्लिपकार्ट सर्विस",
+    gender: "Male",
+    income: "12 से 15 हजार मासिक",
+    height: "N/A", // Not specified
+    education: "10वीं",
+    birthDate: "05-02-1999",
+    birthPlace: "छतरपुर, मध्य प्रदेश",
+    birthTime: "प्रातः 5:15 मिनट",
+    caste: "नामदेव",
+    fathersName: "श्री धर्मेंद्र नामदेव",
+    mothersName: "श्रीमती उर्मिला नामदेव",
+    fathersProfession: "साड़ी फॉल पिको मैचिंग सेंटर, गोवर्धन टॉकीज के पीछे छतरपुर",
+    mothersProfession: "ग्रहकार",
+    gotra: "पनगारिया",
+    manglik: "N/A", // Not specified
+    preferences: "N/A", // Not specified
+    address: "गायत्री मंदिर के पीछे छतरपुर, मध्य प्रदेश",
+    contact: {
+      father: "9285465532",
+      other: null,
+      whatsapp: "https://wa.me/+91-9425882525"
+    },
+    bio: "ऑनलाईन फ्लिपकार्ट सर्विस में कार्यरत, परिवार की जिम्मेदारियों को प्राथमिकता देने वाले एक मेहनती व्यक्ति।"
+  },
+  
+  {
+    id: 51,
+    image: "/images/imagedata/bhupendra_namdev_id_51.jpg", // Replace with the correct image path
+    name: "भुपेंद्र नामदेव (जितेन्द्र)",
+    age: 26, // Calculated based on DOB (2024 - 1998)
+    profession: "मोटर इलेक्ट्रॉनिक",
+    gender: "Male",
+    income: "15000 मासिक",
+    height: "5.5",
+    education: "9th",
+    birthDate: "25/10/1998",
+    birthPlace: "ब्यावरा",
+    birthTime: "सुबह 5 बजे",
+    caste: "नामदेव",
+    fathersName: "सुरेश कुमार नामदेव",
+    mothersName: "आशा नामदेव",
+    fathersProfession: "फल फ्रूट",
+    mothersProfession: "N/A",
+    gotra: "अशर्मा",
+    manglik: "N/A", // Not specified
+    preferences: "अनुरुप",
+    address: "ब्यावरा जिला राजगढ़",
+    contact: {
+      father: "9630882439",
+      other: "7566302549 (व्हाट्सएप)",
+      whatsapp: "https://wa.me/+91-7566302549"
+    },
+    bio: "मोटर इलेक्ट्रॉनिक क्षेत्र में कार्यरत एक मेहनती व्यक्ति, जो अपने व्यवसाय में स्थिरता और उन्नति की तलाश में है।"
+  },
+  
+  {
+    id: 50,
+    image: "/images/imagedata/arun_namdev_id_50.jpg", // Replace with the correct image path
+    name: "अरुण नामदेव",
+    age: 27, // Calculated based on DOB (2024 - 1996)
+    profession: "सिलाई मशीन टेरिग मटेरियल थोक फुटकर",
+    gender: "Male",
+    income: "20000 मासिक",
+    height: "5'10",
+    education: "B.Sc (CS)",
+    birthDate: "10/10/1996",
+    birthPlace: "सिलवानी",
+    birthTime: "N/A", // Birth time not provided
+    caste: "नामदेव",
+    fathersName: "Shri Prem Narayan Namdev",
+    mothersName: "Shrimati Harivai Namdev",
+    fathersProfession: "Private Job",
+    mothersProfession: "N/A",
+    gotra: "देवदरिया",
+    manglik: "No",
+    preferences: "N/A", // No preferences mentioned
+    address: "सिलवानी - जिला रायसेन (MP)",
+    contact: {
+      father: "9630389656",
+      other: "N/A", // No additional contact provided
+      whatsapp: "N/A" // No WhatsApp number mentioned
+    },
+    bio: "एक मेहनती और व्यवसायिक व्यक्ति जो सिलाई मशीन और टेरिग मटेरियल के व्यवसाय में है।"
+  },
+  
+  {
+    id: 49,
+    image: "/images/imagedata/shivani_namdev_id_49.jpg", // Replace with the correct image path
+    name: "Shivani Namdev",
+    age: 23, // Calculated based on DOB (2024 - 2000)
+    profession: "N/A", // Self-occupation not specified
+    gender: "Female",
+    income: "N/A", // No income mentioned
+    height: "4' ft",
+    education: "BA",
+    birthDate: "27/07/2000",
+    birthPlace: "Ganj Basoda",
+    birthTime: "N/A", // Birth time not provided
+    caste: "Namdev/Darji",
+    fathersName: "Mr. Kailash Namdev",
+    mothersName: "Mrs. Anita Namdev",
+    fathersProfession: "Shop",
+    mothersProfession: "Howswife",
+    gotra: "Self: Sher ke badgujar, Maternal Uncle: Ghutanna",
+    manglik: "No",
+    preferences: "N/A", // No preferences mentioned
+    address: "Bareth road Ganj Basoda Vidisha (M.P.)",
+    contact: {
+      father: "9617189727",
+      other: "8225934354", // WhatsApp number
+      whatsapp: "https://wa.me/+91-8225934354"
+    },
+    bio: "एक साधारण व्यक्तित्व की महिला जो अपने परिवार के साथ समय बिताना पसंद करती है।"
+  },
+  
+  {
+    id: 48,
+    image: "/images/imagedata/varun_namdev_id_48.jpg", // Replace with the correct image path
+    name: "चिरंजीव / वरुण नामदेव",
+    age: 30, // Calculated dynamically based on birth year (2024 - 1994)
+    profession: "लीगल मैनेजर (कैप्री ग्लोबल हाउसिंग फाइनेंस लिमिटेड) एवं अधिवक्ता डिस्ट्रिक्ट कोर्ट जिला छिंदवाड़ा।",
+    gender: "male",
+    income: "N/A", // No income data provided
+    height: "5.7",
+    education: "बी कॉम, एल एल बी",
+    birthDate: "15.06.1994",
+    birthPlace: "रोहना कला छिंदवाड़ा",
+    birthTime: "07.55 PM",
+    caste: "नामदेव",
+    fathersName: "श्री सतीश नामदेव",
+    mothersName: "श्रीमती सुरेखा नामदेव",
+    fathersProfession: "कृषि",
+    mothersProfession: "गृहणी",
+    gotra: "सिंगारे",
+    manglik: "नही",
+    preferences: "N/A",
+    address: "ग्राम रोहना कला जिला छिंदवाड़ा मध्य प्रदेश",
+    contact: {
+      father: "9424949955",
+      other: "9770091099",
+      whatsapp: "https://wa.me/+91-9424949955"
+    },
+    bio: "A dedicated legal professional serving as Legal Manager at Capri Global Housing Finance Limited and practicing advocate at District Court, Chhindwara, seeking a compatible life partner."
+  },
+  
+  {
+    id: 47,
+    image: "/images/imagedata/raksha_namdev_id_47.jpg", // Replace with the correct image path
+    name: "रक्षा (नामदेव)",
+    age: 27, // Calculated dynamically based on birth year (2024 - 1996)
+    profession: "working at govt.high.school as a guest faculty",
+    gender: "female",
+    income: "N/A", // No income data provided
+    height: "5\"6\"",
+    education: "B.sc(c.a),m.sc(c.s),B.ed.",
+    birthDate: "05/08/1996",
+    birthPlace: "सलामतपुर",
+    birthTime: "2:5 Am",
+    caste: "नामदेव",
+    fathersName: "श्री हरिराम जी (नामदेव)",
+    mothersName: "श्रीमती विमला (नामदेव)",
+    fathersProfession: "Tailoring",
+    mothersProfession: "N/A",
+    gotra: "बामाेनिया",
+    manglik: "नहीं",
+    preferences: "contact only Mp state & Darji Namdev",
+    address: "सिचाई कॉलोनी के सामने मुख्य मार्ग सलामतपुर, District Raisen (m.p)",
+    contact: {
+      father: "8770089184",
+      other: "8827842325, 9977032810",
+      whatsapp: "https://wa.me/+91-958409958"
+    },
+    bio: "A dedicated professional working as a guest faculty at Govt. High School, seeking a partner from MP state & Darji Namdev community."
+  },
+  
+  {
     id: 46,
     image: "/images/imagedata/paras_namdev_id_46.jpg", // Replace with the correct image path
     name: "Paras Namdev",
@@ -1431,9 +1701,15 @@ const Profile = () => {
       </p>
     );
 
+  // const handleCallClick = () => {
+  //   window.location.href = `+91+${selectedProfile.contact.whatsapp}`; // Replace 'phone' with actual phone number field if available
+  // };
   const handleCallClick = () => {
-    window.location.href = `tel:+${selectedProfile.contact.whatsapp}`; // Replace 'phone' with actual phone number field if available
+    const phoneNumber = `+91${selectedProfile.contact.whatsapp}`; // Prepend country code to the phone number
+    window.location.href = `tel:${phoneNumber}`; // Redirect to the phone number
   };
+  
+
 
   const handleMessageClick = () => {
     window.location.href = `mailto:${selectedProfile.email}`; // Open email client with the profile's email
