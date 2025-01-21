@@ -63,12 +63,12 @@ const Navbar = () => {
           >
             About
           </Link>
-          {/* <Link
+          <Link
             href="/blog"
             className="hover:scale-105 hover:font-semibold transition-transform duration-300"
           >
             Blog
-          </Link> */}
+          </Link>
           <Link
             href="/contact"
             className="hover:scale-105 hover:font-semibold transition-transform duration-300"
@@ -122,7 +122,7 @@ const Navbar = () => {
                   <div className="flex flex-col gap-6">
                     <Link href="/"> Home</Link>
                     <Link href="/about">About</Link>
-                    {/* <Link href="/blog">Blog</Link> */}
+                    <Link href="/blog">Blog</Link>
                     <Link href="/contact">Contact</Link>
                     <div>
                       <Button className="mx-1 text-xs" variant="outline">

@@ -35,6 +35,69 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
+      id: 62,
+      name: "AYUR SHANDILKAR (NAMDEO)",
+      profession: "OWNER BOMBAY CAR SHRINGAR SHOWROOM",
+      age: 27,
+      gender: "male",
+      image: "/images/imagedata/ayur_shandilkar_namdeo_id_62.jpg"
+    },
+    
+    {
+      id: 61,
+      name: "SOURABH SHANDILKAR (namdeo)",
+      profession: "OWNER OF BOMBAY CAR SHRINGAR",
+      age: 30,
+      gender: "male",
+      image: "/images/imagedata/sourabh_shandilkar_namdeo_id_61.jpg"
+    },
+    
+    {
+      id: 60,
+      name: "प्रिंस नामदेव",
+      profession: "सीआईएसएफ पद प्रधान आरक्षक",
+      age: 28,
+      gender: "male",
+      image: "/images/imagedata/prince_namdev_id_60.jpg"
+    },
+    
+    {
+      id: 59,
+      name: "आकाश नामदेव (हिमांशु)",
+      profession: "डायॅमन्ड एण्ड ज्वेलर्स में कार्यरत",
+      age: 25,
+      gender: "male",
+      image: "/images/imagedata/akash_namdev_himanshu_id_59.jpg"
+    },
+    
+    {
+      id: 58,
+      name: "अमन नामदेव",
+      profession: "Self-employed",
+      age: 25,
+      gender: "male",
+      image: "/images/imagedata/aman_namdev_id_58.jpg"
+    },
+    
+    {
+      id: 57,
+      name: "रक्षा (नामदेव)",
+      profession: "Guest Faculty at Govt. High School",
+      age: 28,
+      gender: "female",
+      image: "/images/imagedata/raksha_namdev_id_57.jpg"
+    },
+    
+    {
+      id: 56,
+      name: "Lavkush Namdev",
+      profession: "Branch Manager at Maruti Suzuki Pvt Ltd",
+      age: 31,
+      gender: "male",
+      image: "/images/imagedata/lavkush_namdev_id_56.jpg"
+    },
+    
+    {
       id: 55,
       name: "पीयूष शांडिलकर(नामदेव)",
       profession: "माइन मेट (मैंगनीज माइंस)",

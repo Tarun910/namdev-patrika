@@ -64,9 +64,11 @@ const Blog = () => {
                 <span>
                   {blog.date
                     ? new Date(blog.date).toLocaleDateString("en-GB", {
-                        day: "2-digit",
-                        month: "long",
+                        
                         year: "numeric",
+                        month: "long",
+                        day: "2-digit",
+                        
                       })
                     : "Date not available"}
                 </span>
