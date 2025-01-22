@@ -212,32 +212,32 @@ const profiles = [
   
   {
     id: 57,
-    image: "/images/imagedata/raksha_namdev_id_57.jpg",
-    name: "रक्षा (नामदेव)",
-    age: 28,
-    profession: "Guest Faculty at Govt. High School",
-    salary: "N/A",
-    gender: "Female",
-    income: "N/A",
-    height: "5\"6\"",
-    education: "B.Sc(C.A), M.Sc(C.S), B.Ed.",
-    birthDate: "05/08/1996",
-    birthPlace: "सलामतपुर",
-    birthTime: "2:5 AM",
-    fathersName: "श्री हरिराम जी (नामदेव)",
-    mothersName: "श्रीमती विमला (नामदेव)",
-    fathersProfession: "Tailoring",
-    mothersProfession: "Tailoring",
-    gotra: "बामाेनिया",
-    manglik: "नहीं",
-    preferences: "Contact only MP state & Darji Namdev",
-    address: "सिचाई कॉलोनी के सामने मुख्य मार्ग सलामतपुर, District Raisen (M.P)",
-    contact: {
-      father: "8770089184",
-      whatsapp: "https://wa.me/9584099588",
-      other: "N/A"
+    image: "/images/imagedata/himanshi_namdev_id_57.jpg",
+    "name": "Himanshi Namdev",
+    "age": 26,
+    "profession": "Currently preparing for UGC NET",
+    "gender": "Female",
+    "income": "N/A", // Income not provided
+    "height": "5.1 feet",
+    "education": "B.com(CS), M.com",
+    "birthDate": "11/12/1997",
+    "birthPlace": "Dewas, Madhya Pradesh",
+    "birthTime": "4:12 PM",
+    "caste": "Namdev",
+    "fathersName": "Mr. Prakash Namdev",
+    "mothersName": "Mrs. Manju Namdev",
+    "fathersProfession": "Tailoring and cloth shop at Super Market Dewas",
+    "mothersProfession": "N/A", // Not provided in data
+    "gotra": "Tatwaal",
+    "manglik": "N/A", // Not provided in data
+    "preferences": "N/A", // No preferences provided
+    "address": "Dewas, Madhya Pradesh",
+    "contact": {
+      "father": "9926069058",
+      "other": null,
+      "whatsapp": null
     },
-    bio: "A passionate educator working as a Guest Faculty at Govt. High School, with a strong academic background, seeking a compatible partner from MP state & Darji Namdev community."
+    "bio": "B.com(CS), M.com graduate, currently preparing for UGC NET. A family-oriented individual with a focus on education and self-growth, looking for a compatible partner."
   },
   
   {

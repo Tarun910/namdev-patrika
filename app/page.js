@@ -35,86 +35,86 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
-      "id": 64,
-      "name": "अंकित नामदेव",
-      "profession": "वरिष्ठ प्रबंधक, टाटा मोटर्स लिमिटेड, पुणे",
-      "age": 29, 
-      "gender": "male",
-      "image": "/images/imagedata/ankit_namdev_id_64.jpg" // Update the image path if required
+      id: 64,
+      name: "अंकित नामदेव",
+      profession: "वरिष्ठ प्रबंधक, टाटा मोटर्स लिमिटेड, पुणे",
+      age: 29,
+      gender: "male",
+      image: "/images/imagedata/ankit_namdev_id_64.jpg", // Update the image path if required
     },
-    
+
     {
       id: 63,
       name: "Rohit Namdev",
       profession: "International marketing, Arvind Mills Ltd (Ahmedabad)",
       age: 28,
       gender: "male",
-      image: "/images/imagedata/rohit_namdev_id_63.jpg"
+      image: "/images/imagedata/rohit_namdev_id_63.jpg",
     },
-    
+
     {
       id: 62,
       name: "AYUR SHANDILKAR (NAMDEO)",
       profession: "OWNER BOMBAY CAR SHRINGAR SHOWROOM",
       age: 27,
       gender: "male",
-      image: "/images/imagedata/ayur_shandilkar_namdeo_id_62.jpg"
+      image: "/images/imagedata/ayur_shandilkar_namdeo_id_62.jpg",
     },
-    
+
     {
       id: 61,
       name: "SOURABH SHANDILKAR (namdeo)",
       profession: "OWNER OF BOMBAY CAR SHRINGAR",
       age: 30,
       gender: "male",
-      image: "/images/imagedata/sourabh_shandilkar_namdeo_id_61.jpg"
+      image: "/images/imagedata/sourabh_shandilkar_namdeo_id_61.jpg",
     },
-    
+
     {
       id: 60,
       name: "प्रिंस नामदेव",
       profession: "सीआईएसएफ पद प्रधान आरक्षक",
       age: 28,
       gender: "male",
-      image: "/images/imagedata/prince_namdev_id_60.jpg"
+      image: "/images/imagedata/prince_namdev_id_60.jpg",
     },
-    
+
     {
       id: 59,
       name: "आकाश नामदेव (हिमांशु)",
       profession: "डायॅमन्ड एण्ड ज्वेलर्स में कार्यरत",
       age: 25,
       gender: "male",
-      image: "/images/imagedata/akash_namdev_himanshu_id_59.jpg"
+      image: "/images/imagedata/akash_namdev_himanshu_id_59.jpg",
     },
-    
+
     {
       id: 58,
       name: "अमन नामदेव",
       profession: "Self-employed",
       age: 25,
       gender: "male",
-      image: "/images/imagedata/aman_namdev_id_58.jpg"
+      image: "/images/imagedata/aman_namdev_id_58.jpg",
     },
-    
+
     {
       id: 57,
-      name: "रक्षा (नामदेव)",
-      profession: "Guest Faculty at Govt. High School",
-      age: 28,
+      name: "Himanshi Namdev",
+      profession: "Currently preparing for UGC NET",
+      age: 26,
       gender: "female",
-      image: "/images/imagedata/raksha_namdev_id_57.jpg"
+      image: "/images/imagedata/himanshi_namdev_id_57.jpg",
     },
-    
+
     {
       id: 56,
       name: "Lavkush Namdev",
       profession: "Branch Manager at Maruti Suzuki Pvt Ltd",
       age: 31,
       gender: "male",
-      image: "/images/imagedata/lavkush_namdev_id_56.jpg"
+      image: "/images/imagedata/lavkush_namdev_id_56.jpg",
     },
-    
+
     {
       id: 55,
       name: "पीयूष शांडिलकर(नामदेव)",
@@ -122,25 +122,26 @@ export default function Home() {
       salary: "₹20000",
       age: 36,
       gender: "male",
-      image: "/images/imagedata/piyush_shandilkar_id_55.jpg"
+      image: "/images/imagedata/piyush_shandilkar_id_55.jpg",
     },
-    
+
     {
       id: 54,
       name: "कु.सोनम (नामदेव)",
-      profession: "नर्सिंग आफीसर/क्वालिटी आफीसर जिला चिकित्सालय मण्डला (मध्यप्रदेश) सरकारी नौकरी",
+      profession:
+        "नर्सिंग आफीसर/क्वालिटी आफीसर जिला चिकित्सालय मण्डला (मध्यप्रदेश) सरकारी नौकरी",
       age: 38,
       gender: "female",
-      image: "/images/imagedata/sonam_namdev_id_54.jpg"
+      image: "/images/imagedata/sonam_namdev_id_54.jpg",
     },
-    
+
     {
       id: 53,
       name: "राजराजेश्वर नामदेव",
       profession: "प्राइवेट नौकरी",
       age: 29, // Calculated based on DOB (2024 - 1995)
       gender: "male",
-      image: "/images/imagedata/rajrajeshwar_namdev_id_53.jpg"
+      image: "/images/imagedata/rajrajeshwar_namdev_id_53.jpg",
     },
     {
       id: 52,
@@ -148,154 +149,157 @@ export default function Home() {
       profession: "ऑनलाईन फ्लिपकार्ट सर्विस",
       age: 25, // Calculated based on DOB (2024 - 1999)
       gender: "male",
-      image: "/images/imagedata/vikas_namdev_id_52.jpg"
+      image: "/images/imagedata/vikas_namdev_id_52.jpg",
     },
-    
+
     {
       id: 51,
       name: "भुपेंद्र नामदेव (जितेन्द्र)",
       profession: "मोटर इलेक्ट्रॉनिक",
       age: 26, // Calculated based on DOB (2024 - 1998)
       gender: "male",
-      image: "/images/imagedata/bhupendra_namdev_id_51.jpg"
+      image: "/images/imagedata/bhupendra_namdev_id_51.jpg",
     },
-    
+
     {
       id: 50,
       name: "अरुण नामदेव",
       profession: "सिलाई मशीन टेरिग मटेरियल थोक फुटकर",
       age: 27, // Calculated based on DOB (2024 - 1996)
       gender: "male",
-      image: "/images/imagedata/arun_namdev_id_50.jpg"
+      image: "/images/imagedata/arun_namdev_id_50.jpg",
     },
-    
+
     {
       id: 49,
       name: "Shivani Namdev",
       profession: "N/A", // Self-occupation not specified
       age: 23, // Calculated based on DOB (2024 - 2000)
       gender: "female",
-      image: "/images/imagedata/shivani_namdev_id_49.jpg"
+      image: "/images/imagedata/shivani_namdev_id_49.jpg",
     },
-    
+
     {
       id: 48,
       name: "चिरंजीव / वरुण नामदेव",
-      profession: "लीगल मैनेजर (कैप्री ग्लोबल हाउसिंग फाइनेंस लिमिटेड) एवं अधिवक्ता डिस्ट्रिक्ट कोर्ट जिला छिंदवाड़ा।",
+      profession:
+        "लीगल मैनेजर (कैप्री ग्लोबल हाउसिंग फाइनेंस लिमिटेड) एवं अधिवक्ता डिस्ट्रिक्ट कोर्ट जिला छिंदवाड़ा।",
       age: 30, // Calculated dynamically based on birth year (2024 - 1994)
       gender: "male",
-      image: "/images/imagedata/varun_namdev_id_48.jpg"
+      image: "/images/imagedata/varun_namdev_id_48.jpg",
     },
-    
+
     {
       id: 47,
       name: "रक्षा (नामदेव)",
       profession: "Guest Faculty at Govt. High School",
       age: 27,
       gender: "female",
-      image: "/images/imagedata/raksha_namdev_id_47.jpg"
+      image: "/images/imagedata/raksha_namdev_id_47.jpg",
     },
-    
-    
+
     {
       id: 46,
       name: "Paras Namdev",
       profession: "Artist and Musician Including Electronic Repairing",
       age: 24,
       gender: "male",
-      image: "/images/imagedata/paras_namdev_id_46.jpg"
+      image: "/images/imagedata/paras_namdev_id_46.jpg",
     },
-    
+
     {
       id: 45,
       name: "मनिष भामरे",
       profession: "District Manager at AXIS BANK",
       age: 25,
       gender: "male",
-      image: "/images/imagedata/manish_bhamre_id_45.jpg"
+      image: "/images/imagedata/manish_bhamre_id_45.jpg",
     },
-    
+
     {
       id: 44,
       name: "कोमल कुमारी (नामदेव)",
       profession: "private school teacher",
       age: 27,
       gender: "female",
-      image: "/images/imagedata/komal_kumari_namdev_id_44.jpg"
+      image: "/images/imagedata/komal_kumari_namdev_id_44.jpg",
     },
-    
+
     {
       id: 43,
       name: "Palak Chittora",
-      profession: "Dentist, Fellowship in Cosmetology - Practicing in Hyderabad",
+      profession:
+        "Dentist, Fellowship in Cosmetology - Practicing in Hyderabad",
       age: 28,
       gender: "female",
-      image: "/images/imagedata/palak_chittora_id_43.jpg"
+      image: "/images/imagedata/palak_chittora_id_43.jpg",
     },
-    
+
     {
       id: 42,
       name: "Milan Namdev",
-      profession: "Nursing Officer - Arvindo Medical College Hospital, Indore (MP)",
+      profession:
+        "Nursing Officer - Arvindo Medical College Hospital, Indore (MP)",
       age: 29,
       gender: "male",
-      image: "/images/imagedata/milan_namdev_id_42.jpg"
+      image: "/images/imagedata/milan_namdev_id_42.jpg",
     },
-    
+
     {
       id: 41,
       name: "Mansi Namdeo",
-      profession: "Nursing Officer - Government District Hospital Jabalpur (M.P)",
+      profession:
+        "Nursing Officer - Government District Hospital Jabalpur (M.P)",
       age: 25,
       gender: "female",
-      image: "/images/imagedata/mansi_namdeo_id_41.jpg"
+      image: "/images/imagedata/mansi_namdeo_id_41.jpg",
     },
-    
+
     {
       id: 40,
       name: "Pavan Rajput (Chhipa)",
       profession: "Deputy Manager, Bajaj Finance Limited, Gwalior",
       age: 27,
       gender: "male",
-      image: "/images/imagedata/pavan_rajput_chhipa_id_40.jpg"
+      image: "/images/imagedata/pavan_rajput_chhipa_id_40.jpg",
     },
-    
+
     {
       id: 39,
       name: "कपिल कुमार नामदेव वर्मा",
       profession: "Software Engineer, Krindle Software (American Company)",
       age: 28,
       gender: "male",
-      image: "/images/imagedata/कपिल_कुमार_नामदेव_वर्मा_id_39.jpg"
+      image: "/images/imagedata/कपिल_कुमार_नामदेव_वर्मा_id_39.jpg",
     },
-    
+
     {
       id: 38,
       name: "शिवानी नामदेव",
       profession: "Sr. Accountant",
       age: 25,
       gender: "female",
-      image: "/images/imagedata/शिवानी_नामदेव_id_38.jpg"
+      image: "/images/imagedata/शिवानी_नामदेव_id_38.jpg",
     },
-    
+
     {
       id: 37,
       name: "Jitendra Namdev",
       profession: "Nominated Project Director",
       age: 28,
       gender: "male",
-      image: "/images/imagedata/jitendra_namdev_id_37.jpg"
+      image: "/images/imagedata/jitendra_namdev_id_37.jpg",
     },
-    
+
     {
       id: 36,
       name: "Shivam Namdev",
       profession: "Sr. Engineer",
       age: 28,
       gender: "male",
-      image: "/images/imagedata/shivam_namdev_id_36.jpg"
+      image: "/images/imagedata/shivam_namdev_id_36.jpg",
     },
-    
+
     {
       id: 35,
       name: "Ayushi Rohilla",
