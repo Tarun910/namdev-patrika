@@ -35,6 +35,15 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
+      "id": 64,
+      "name": "अंकित नामदेव",
+      "profession": "वरिष्ठ प्रबंधक, टाटा मोटर्स लिमिटेड, पुणे",
+      "age": 29, 
+      "gender": "male",
+      "image": "/images/imagedata/ankit_namdev_id_64.jpg" // Update the image path if required
+    },
+    
+    {
       id: 63,
       name: "Rohit Namdev",
       profession: "International marketing, Arvind Mills Ltd (Ahmedabad)",

@@ -20,6 +20,36 @@ const profiles = [
   //   bio: "A professional looking for a partner with similar interests and values.",
   // },
   {
+    "id": 64,
+    "image": "/images/imagedata/ankit_namdev_id_64.jpg", // Replace with the correct image path
+    "name": "अंकित नामदेव",
+    "age": 29,
+    "profession": "वरिष्ठ प्रबंधक, टाटा मोटर्स लिमिटेड, पुणे",
+    "gender": "Male",
+    "income": "13 लाख प्रति वर्ष",
+    "height": "5'5",
+    "education": "एम.टेक (एनआईटी भोपाल - मैनिट)",
+    "birthDate": "18/08/1995",
+    "birthPlace": "सागर, मध्यप्रदेश",
+    "birthTime": "03:10 AM",
+    "caste": "नामदेव",
+    "fathersName": "स्वर्गीय श्री कमल नामदेव",
+    "mothersName": "श्रीमती अंजू नामदेव",
+    "fathersProfession": "N/A", // Not provided in data
+    "mothersProfession": "सेक्शन ऑफीसर",
+    "gotra": "बड़गुजर",
+    "manglik": "पता नहीं",
+    "preferences": "N/A", // No preferences provided
+    "address": "दीनदयाल नगर, सागर, मध्य प्रदेश",
+    "contact": {
+      "mother": "9340706258",
+      "other": null,
+      "whatsapp": null
+    },
+    "bio": "एनआईटी भोपाल (मैनिट) से एम.टेक धारक और टाटा मोटर्स लिमिटेड, पुणे में वरिष्ठ प्रबंधक। परिवार और करियर में संतुलन साधने वाले, संगत विचारधारा वाले जीवन साथी की तलाश।"
+  },
+  
+  {
     id: 63,
     image: "/images/imagedata/rohit_namdev_id_63.jpg",
     name: "Rohit Namdev",
