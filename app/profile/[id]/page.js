@@ -20,6 +20,34 @@ const profiles = [
   //   bio: "A professional looking for a partner with similar interests and values.",
   // },
   {
+    id: 63,
+    image: "/images/imagedata/rohit_namdev_id_63.jpg",
+    name: "Rohit Namdev",
+    age: 28,
+    profession: "International marketing, Arvind Mills Ltd (Ahmedabad)",
+    gender: "Male",
+    height: "5'11",
+    education: "B.E. (Textile Engineering): Vaishnav College, MBA (Marketing): DAVV",
+    birthDate: "07/03/1996",
+    birthPlace: "Barwaha, M.P.",
+    birthTime: "12:05 PM",
+    caste: "Namdev",
+    fathersName: "Mr. Santosh Namdev",
+    mothersName: "Mrs. Rajshree Namdev",
+    fathersProfession: "N/A",
+    mothersProfession: "N/A",
+    gotra: "Dhakalya",
+    manglik: "No",
+    address: "H no. 107, Bhandari Greens, Maheshwar Road, Barwaha, M.P.",
+    contact: {
+      father: "7415732939",
+      other: "9826935680",
+      whatsapp: null
+    },
+    bio: "A professional in international marketing at Arvind Mills Ltd, Ahmedabad, seeking a suitable partner with shared aspirations."
+  },
+  
+  {
     id: 62,
     image: "/images/imagedata/ayur_shandilkar_namdeo_id_62.jpg",
     name: "AYUR SHANDILKAR (NAMDEO)",

@@ -35,6 +35,15 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
+      id: 63,
+      name: "Rohit Namdev",
+      profession: "International marketing, Arvind Mills Ltd (Ahmedabad)",
+      age: 28,
+      gender: "male",
+      image: "/images/imagedata/rohit_namdev_id_63.jpg"
+    },
+    
+    {
       id: 62,
       name: "AYUR SHANDILKAR (NAMDEO)",
       profession: "OWNER BOMBAY CAR SHRINGAR SHOWROOM",
