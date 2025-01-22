@@ -1769,7 +1769,7 @@ const profiles = [
     income: "N/A", // Update with actual income if available
     height: "5 ft",
     education: "B.Sc (Maths), D.El.Ed",
-    birthDate: "02/11/1995",
+    birthDate: "02/11/1996",
     birthPlace: "Ganj Basoda",
     birthTime: "6:00 AM",
     caste: "Namdev",

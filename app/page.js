@@ -566,7 +566,7 @@ export default function Home() {
       id: 6,
       name: "Sonam (Namdev)",
       profession: "Irrigation Department (Private)",
-      age: 28,
+      age: 27,
       gender: "female",
       image: "/images/imagedata/sonam_namdev_id_6.jpg",
     },
