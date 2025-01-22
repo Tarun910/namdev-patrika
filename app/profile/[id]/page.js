@@ -20,6 +20,36 @@ const profiles = [
   //   bio: "A professional looking for a partner with similar interests and values.",
   // },
   {
+    id: 65,
+    image: "/images/imagedata/anshul_namdeo_id_65.jpg", 
+    name: "अंशुल नामदेव",
+    age: 32,
+    profession: "Accountant In BFIL",
+    gender: "male",
+    income: "N/A",
+    height: "5\"10",
+    education: "B.com , PGDCA",
+    birthDate: "03/10/1991",
+    birthPlace: "जबलपुर",
+    birthTime: "रात्रि 10:35",
+    caste: "दर्जी",
+    fathersName: "अरूण नामदेव",
+    mothersName: "कमला नामदेव",
+    fathersProfession: "बुक बाइंडर",
+    mothersProfession: "गृहणी",
+    gotra: "स्वयं: शांडिल्य, मामा: भारद्वाज",
+    manglik: "आंशिक मांगलिक",
+    preferences: "N/A",
+    address: "बजरंग नगर, काली माता मंदिर के पास, कटंगी रोड जबलपुर",
+    contact: {
+      father: "999321812",
+      other: null,
+      whatsapp: null
+    },
+    bio: "Accountant In BFIL, seeking a compatible partner with shared values and aspirations."
+  },
+  
+  {
     "id": 64,
     "image": "/images/imagedata/ankit_namdev_id_64.jpg", // Replace with the correct image path
     "name": "अंकित नामदेव",
@@ -1991,7 +2021,7 @@ const Profile = () => {
 
   const handleShareClick = () => {
     // Build a message with profile data and URL to share
-    const message = `Check out this profile!\n\nName: ${selectedProfile.name}\nProfession: ${selectedProfile.profession}\nGender: ${selectedProfile.gender}\nHeight: ${selectedProfile.height}\nEducation: ${selectedProfile.education}\nDate of Birth: ${selectedProfile.birthDate}\nBirth Place: ${selectedProfile.birthPlace}\nBirth Time: ${selectedProfile.birthTime}\nFather's Name: ${selectedProfile.fathersName}\nFather's Profession: ${selectedProfile.fathersProfession}\nAddress: ${selectedProfile.address}\nBio: ${selectedProfile.bio}\n\nFor more details, visit: ${window.location.href}`;
+    const message = `Check out this profile!\n\nProfile Id : ${selectedProfile.id}\nName: ${selectedProfile.name}\nProfession: ${selectedProfile.profession}\nGender: ${selectedProfile.gender}\nHeight: ${selectedProfile.height}\nEducation: ${selectedProfile.education}\nDate of Birth: ${selectedProfile.birthDate}\nBirth Place: ${selectedProfile.birthPlace}\nBirth Time: ${selectedProfile.birthTime}\nFather's Name: ${selectedProfile.fathersName}\nFather's Profession: ${selectedProfile.fathersProfession}\nAddress: ${selectedProfile.address}\nBio: ${selectedProfile.bio}\n\nFor more details, visit: ${window.location.href}`;
 
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
 
@@ -2000,7 +2030,7 @@ const Profile = () => {
 
   const handleCopyClick = () => {
     // Build a message with profile data to copy
-    const message = `Check out this profile!\n\nName: ${selectedProfile.name}\nProfession: ${selectedProfile.profession}\nGender: ${selectedProfile.gender}\nHeight: ${selectedProfile.height}\nEducation: ${selectedProfile.education}\nDate of Birth: ${selectedProfile.birthDate}\nBirth Place: ${selectedProfile.birthPlace}\nBirth Time: ${selectedProfile.birthTime}\nFather's Name: ${selectedProfile.fathersName}\nFather's Profession: ${selectedProfile.fathersProfession}\nAddress: ${selectedProfile.address}\nBio: ${selectedProfile.bio}\n\nFor more details, visit: ${window.location.href}`;
+    const message = `Check out this profile!\n\nProfile Id : ${selectedProfile.id}\nName: ${selectedProfile.name}\nProfession: ${selectedProfile.profession}\nGender: ${selectedProfile.gender}\nHeight: ${selectedProfile.height}\nEducation: ${selectedProfile.education}\nDate of Birth: ${selectedProfile.birthDate}\nBirth Place: ${selectedProfile.birthPlace}\nBirth Time: ${selectedProfile.birthTime}\nFather's Name: ${selectedProfile.fathersName}\nFather's Profession: ${selectedProfile.fathersProfession}\nAddress: ${selectedProfile.address}\nBio: ${selectedProfile.bio}\n\nFor more details, visit: ${window.location.href}`;
 
     // Copy the message to clipboard
     navigator.clipboard
@@ -2040,6 +2070,10 @@ const Profile = () => {
           <h2 className="text-2xl font-semibold text-gray-700 dark:text-gray-200">
             Personal Information
           </h2>
+          <p>
+            <span className="font-semibold">Profile Id :</span>{" "}
+            {selectedProfile.id || "N/A"}
+          </p>
           <p>
             <span className="font-semibold">Name:</span>{" "}
             {selectedProfile.name || "N/A"}

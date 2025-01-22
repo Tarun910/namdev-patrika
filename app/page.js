@@ -35,6 +35,15 @@ export default function Home() {
     //   image: "/images/download (4).jpg",
     // },
     {
+      id: 65,
+      name: "अंशुल नामदेव",
+      profession: "Accountant In BFIL",
+      age: 32,
+      gender: "male",
+      image: "/images/imagedata/anshul_namdeo_id_65.jpg"
+    },
+    
+    {
       id: 64,
       name: "अंकित नामदेव",
       profession: "वरिष्ठ प्रबंधक, टाटा मोटर्स लिमिटेड, पुणे",
@@ -749,6 +758,9 @@ export default function Home() {
                 </p>
                 <p className="text-gray-500 dark:text-gray-300">
                   {card.age !== null ? `${card.age} years old` : null}
+                </p>
+                <p className="text-gray-500 dark:text-gray-300">
+                  {`[Profile Id : ${card.id}]`}
                 </p>
               </div>
             ))}
